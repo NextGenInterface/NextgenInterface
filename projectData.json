@@ -6,36 +6,55 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["html", "javscript", "sass"],
       "image": [
-        "/images/BlackWolfSecurity/1.svg",
-        "/images/BlackWolfSecurity/2.svg",
-        "/images/BlackWolfSecurity/3.svg",
-        "/images/BlackWolfSecurity/4.svg"
+        "./images/BlackWolfSecurity/1.svg",
+        "./images/BlackWolfSecurity/2.svg",
+        "./images/BlackWolfSecurity/3.svg",
+        "./images/BlackWolfSecurity/4.svg"
       ]
     },
     {
       "id": "2",
-      "name": "kanban",
+      "name": "Booking web app",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws"],
-      "image": ["/images/codeing.jpg"]
+      "image": [
+        "./images/BookingApp/booking1.svg",
+        "./images/BookingApp/booking2.svg",
+        "./images/BookingApp/booking3.svg",
+        "./images/BookingApp/booking4.svg",
+        "./images/BookingApp/booking5.svg",
+        "./images/BookingApp/booking6.svg"
+      ]
     },
     {
       "id": "3",
-      "name": "portfolio",
+      "name": "elike k9",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["css", "javascript", "bootstrap", "html"],
-      "image": ["/images/pro.png"]
+      "image": [
+        "./images/Elitek9/elite1.svg",
+        "./images/Elitek9/elite2.svg",
+        "./images/Elitek9/elite3.svg",
+        "./images/Elitek9/elite4.svg",
+        "./images/Elitek9/elite5.svg",
+        "./images/Elitek9/elite6.svg",
+        "./images/Elitek9/elite7.svg",
+        "./images/Elitek9/elite8.svg"
+      ]
     },
     {
       "id": "4",
-      "name": "cmd",
+      "name": "inventory",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["css", "javascript", "bootstrap", "html"],
-      "image": ["/images/pro.png"]
+      "image": [
+        "./images/Inventory/invent1.svg",
+        "./images/Inventory/invent2.svg"
+      ]
     },
     {
       "id": "5",
-      "name": "dtodo",
+      "name": "jim gos",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": [
         "tailwind",
@@ -46,14 +65,51 @@
         "bootstrap",
         "html"
       ],
-      "image": ["/images/404.png"]
+      "image": [
+        "/images/Jimgos/jim1.svg",
+        "/images/Jimgos/jim2.svg",
+        "/images/Jimgos/jim3.svg",
+        "/images/Jimgos/jim5.svg",
+        "/images/Jimgos/jim6.svg"
+      ]
     },
     {
       "id": "6",
-      "name": "tours",
+      "name": "recipe finder",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws"],
-      "image": ["/images/codeing.jpg"]
+      "image": [
+        "./images/RecipeFinder/rec1.svg",
+        "./images/RecipeFinder/rec2.svg"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "tina pokuaah",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["tailwind", "react", "aws"],
+      "image": [
+        "./images/TinaPokuaah/tina1.svg",
+        "./images/TinaPokuaah/tina2.svg",
+        "./images/TinaPokuaah/tina3.svg",
+        "./images/TinaPokuaah/tina4.svg",
+        "./images/TinaPokuaah/tina5.svg",
+        "./images/TinaPokuaah/tina6.svg",
+        "./images/TinaPokuaah/tina7.svg"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "compass",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["tailwind", "react", "aws"],
+      "image": [
+        "./images/Compass/compass1.svg",
+        "./images/Compass/compass2.svg",
+        "./images/Compass/compass3.svg",
+        "./images/Compass/compass4.svg",
+        "./images/Compass/compass5.svg"
+      ]
     }
   ]
 }

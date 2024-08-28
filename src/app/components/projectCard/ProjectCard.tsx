@@ -28,7 +28,7 @@ const ProjectCard = ({
       className="group w-full relative shadow-sm shadow-neutral-300 overflow-hidden dark:shadow-neutral-950 rounded-lg">
       <article className="bg-light-foreground group-hover:bg-neutral-200 dark:group-hover:bg-neutral-800 flex dark:bg-dark-foreground  overflow-hidden ">
         <div className="flex flex-col flex-1 text-left p-8">
-          <h1 className="text-lg font-semibold">{name}</h1>
+          <h1 className="text-lg font-semibold capitalize">{name}</h1>
           <p className="text-sm font-light mt-1 mb-6">
             {description?.substring(0, 100)}...
           </p>

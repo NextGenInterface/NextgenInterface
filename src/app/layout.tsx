@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { lexend, poppins } from "./Assets/Font/Fonts";
+// import Provider from "./Assets/Theme/Provider";
+import Header from "./components/header/Header";
+// import Footer from "./components/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +16,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${lexend.variable} m-0 p-0 `}>
+      <body className="m-0 p-0 bg:white bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text transition-all duration-200 antialiased">
+        {/* <Provider> */}
+        <Header />
+        {children}
+        {/* <Footer /> */}
+        {/* </Provider> */}
+      </body>
     </html>
   );
 }

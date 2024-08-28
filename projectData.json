@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "black wolf security",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["html", "javscript", "sass"],
+      "image": [
+        "/images/BlackWolfSecurity/1.svg",
+        "/images/BlackWolfSecurity/2.svg",
+        "/images/BlackWolfSecurity/3.svg",
+        "/images/BlackWolfSecurity/4.svg"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "kanban",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["tailwind", "react", "aws"],
+      "image": ["/images/codeing.jpg"]
+    },
+    {
+      "id": "3",
+      "name": "portfolio",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["css", "javascript", "bootstrap", "html"],
+      "image": ["/images/pro.png"]
+    },
+    {
+      "id": "4",
+      "name": "cmd",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["css", "javascript", "bootstrap", "html"],
+      "image": ["/images/pro.png"]
+    },
+    {
+      "id": "5",
+      "name": "dtodo",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": [
+        "tailwind",
+        "nextjs",
+        "mongo",
+        "bootstrap",
+        "html",
+        "bootstrap",
+        "html"
+      ],
+      "image": ["/images/404.png"]
+    },
+    {
+      "id": "6",
+      "name": "tours",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["tailwind", "react", "aws"],
+      "image": ["/images/codeing.jpg"]
+    }
+  ]
+}

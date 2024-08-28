@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { lexend, poppins } from "./Assets/Font/Fonts";
-// import Provider from "./Assets/Theme/Provider";
+import Provider from "./lib/themeProvider/Provider";
 import Header from "./components/header/Header";
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,11 +21,11 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${lexend.variable} m-0 p-0 `}>
       <body className="m-0 p-0 bg:white bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text transition-all duration-200 antialiased">
-        {/* <Provider> */}
-        <Header />
-        {children}
-        {/* <Footer /> */}
-        {/* </Provider> */}
+        <Provider>
+          <Header />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
   );

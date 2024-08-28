@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
-// import ThemeToggle from "@/app/components/themeToggle/ThemeToggle";
+import ThemeToggle from "@/app/components/themeToggle/ThemeToggle";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { MdOutlineMenu } from "react-icons/md";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
-// import LogoIcon from "../../../../public/svg/logo.svg";
+// import LogoIcon from "/public/svg/logo.svg";
 import { usePathname } from "next/navigation";
-// import Menu from "../menu/Menu";
+import SideMenu from "./sideMenu/SideMenu";
 
 const Header = () => {
   const [menuNav, setMenuNav] = useState(false);
@@ -43,7 +43,7 @@ const Header = () => {
             </Link>
           ))}
           <div className="text-3xl font-light text-slate-800">|</div>
-          {/* <ThemeToggle /> */}
+          <ThemeToggle />
         </ul>
       </div>
       <div className="md:hidden text-white text-3xl">
@@ -52,12 +52,12 @@ const Header = () => {
           className="md:hidden text-black text-3xl dark:text-white "
         />
       </div>
-      {/* <Menu
+      <SideMenu
         menuNav={menuNav}
         setMenuNav={setMenuNav}
         menu={menu}
         pathname={pathname}
-      /> */}
+      />
     </nav>
   );
 };

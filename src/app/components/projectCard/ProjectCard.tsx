@@ -24,7 +24,7 @@ const ProjectCard = ({
     <Link
       href={`/project/${renameUrl}`}
       data-aos="zoom-in-up"
-      data-aos-duration="600"
+      data-aos-duration="400"
       className="group w-full relative shadow-sm shadow-neutral-300 overflow-hidden dark:shadow-neutral-950 rounded-lg">
       <article className="bg-light-foreground group-hover:bg-neutral-200 dark:group-hover:bg-neutral-800 flex dark:bg-dark-foreground  overflow-hidden ">
         <div className="flex flex-col flex-1 text-left p-8">

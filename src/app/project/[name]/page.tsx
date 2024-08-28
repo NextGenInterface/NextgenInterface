@@ -1,10 +1,16 @@
-"use client";
 import React from "react";
 import projectData from "../../../../projectData.json";
 import Image from "next/image";
 
+export function generateStaticParams() {
+  return projectData?.projects.map((item) => {
+    const renameUrl = item.name.split(" ").join("");
+    return { name: renameUrl };
+  });
+}
+
 const page = ({ params }: { params: { name: string } }) => {
-  const project = projectData.projects.find((item, i) => {
+  const project = projectData.projects.find((item) => {
     const renameUrl = item.name.split(" ").join("");
     return renameUrl === params.name;
   });
@@ -36,6 +42,7 @@ const page = ({ params }: { params: { name: string } }) => {
                 src={pics}
                 alt="project"
                 fill={true}
+                unoptimized
                 className=" object-cover object-top w-full h-full"
               />
             </div>

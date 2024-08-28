@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <nav
-      className={`w-full pt-6 flex justify-between items-center px-4 md:px-20`}>
+      className={`fixed top-0 w-full pt-6 flex justify-between items-center px-4 md:px-20 bg-light-background bg-opacity-95 dark:bg-dark-background z-50 dark:bg-opacity-95`}>
       <div className="flex gap-2">
         <div className="w-6 relative top-1">{/* <LogoIcon /> */}</div>
         <h1 className="text-2xl font-extrabold">

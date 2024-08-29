@@ -36,9 +36,8 @@ const page = ({ params }: { params: { name: string } }) => {
         </div>
         <div className="flex flex-col gap-y-8">
           {project?.image?.map((pics: any, i: number) => (
-            <div className=" w-full h-[100vh] relative overflow-hidden">
+            <div key={i} className=" w-full h-[100vh] relative overflow-hidden">
               <Image
-                key={i}
                 src={pics}
                 alt="project"
                 fill={true}

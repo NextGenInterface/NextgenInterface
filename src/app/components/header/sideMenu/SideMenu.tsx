@@ -2,8 +2,8 @@ import Link from "next/link";
 import React from "react";
 import { IoMdClose } from "react-icons/io";
 import ThemeToggle from "../../themeToggle/ThemeToggle";
-// import Image from "next/image";
-// import LogoIcon from "../../../../../public/SVG/logo.svg";
+import Image from "next/image";
+import LogoIcon from "../../../../../public/SVG/logo.svg";
 
 const Menu = ({
   menuNav,
@@ -22,13 +22,13 @@ const Menu = ({
         !menuNav ? "hidden" : "visible"
       } w-full px-4 fixed top-0 left-0 bg-light-background dark:bg-dark-background z-40 dark:bg-opacity-100 shadow-md`}>
       <div className="flex justify-between items-center pt-6">
-        <div className="w-8">
-          {/* <LogoIcon /> */}
-          {/* <Image
-            src={logo}
-            alt="logo"
-            className="object-center object-contain "
-          /> */}
+        <div className="flex gap-2">
+          <div className="w-6 relative top-1">
+            <Image src={LogoIcon} alt="logo" fill={true} />
+          </div>
+          <h1 className="text-2xl font-extrabold">
+            <span className="font-normal">Pixel</span>Perfect
+          </h1>
         </div>
         <IoMdClose
           onClick={() => setMenuNav(false)}

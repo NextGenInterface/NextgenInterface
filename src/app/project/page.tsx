@@ -1,10 +1,11 @@
 import React from "react";
 import ListContainer from "../components/listContainer/ListContainer";
 import Tab from "../components/utils/tab/Tab";
+import PageLayout from "../components/utils/pageLayout/PageLayout";
 
 const page = () => {
   return (
-    <div className="p-4 py-8 md:p-20 h-full">
+    <PageLayout>
       <h1 className="text-left self-start text-4xl md:text-5xl font-bold mb-6">
         Our Projects
       </h1>
@@ -19,7 +20,7 @@ const page = () => {
         }
         tab2="tab 2"
       />
-    </div>
+    </PageLayout>
   );
 };
 

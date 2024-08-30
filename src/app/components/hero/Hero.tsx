@@ -5,7 +5,7 @@ import Button from "../utils/button/Button";
 
 const Hero = () => {
   return (
-    <div className="w-full px-4 md:px-0 h-[80vh] md:h-[100vh] flex flex-col justify-center items-center relative">
+    <div className="w-full px-4 md:px-0 h-[100vh] md:h-[100vh] flex flex-col justify-center items-center relative">
       <div className="absolute w-full h-full top-0">
         <BlurGradientBackground />
       </div>

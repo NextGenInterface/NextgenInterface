@@ -60,6 +60,7 @@ const config: Config = {
           foreground: "#e9e9e9",
           text: "#222",
         },
+        themeColor: "#6366f1",
       },
     },
   },

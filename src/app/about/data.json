@@ -1,0 +1,50 @@
+{
+  "serviceeCard": [
+    {
+      "id": "1",
+      "area": "web development",
+      "title": "ksk slnksn slnklsn hdg ihhdmm;",
+      "description": "Our web development team crafts responsive,user-friendly websites and web applications that not only look great but perform seamlessly across all devices. We specialize in building custom solutions tailored to your business needs, ensuring your digital presence stands out in a crowded online space.",
+      "image": "./SVG/webDev.svg"
+    },
+    {
+      "id": "2",
+      "area": "Graphic Design",
+      "title": "sjnsjk lskndklsnd hsjd kiuh lasdj",
+      "description": " UI/UX Design: A great user experience is crucial to the success of any digital product. Our UI/UX design team focuses on creating intuitive, engaging interfaces that make it easy for users to navigate and interact with your website or app. We prioritize functionality and aesthetics to ensure your digital products are not only beautiful but also user-friendly.",
+      "image": "./SVG/graphics.svg"
+    },
+    {
+      "id": "3",
+      "area": "UI/UX Design",
+      "title": "shdskndja kdlkasmdlasm skdla asoasjdoajs",
+      "description": "Visual storytelling is at the heart of what we do. Our graphic design services include everything from branding and logo design to marketing materials and social media content. We work closely with you to create visually compelling designs that resonate with your audience and reflect your brand’s unique ",
+      "image": "./SVG/ui.svg"
+    },
+    {
+      "id": "4",
+      "area": "branding",
+      "title": "shdskndja dlaskd askdlaksdaks paskdco asjdoajs",
+      "description": "Visual storytelling is at the heart of what we do. Our graphic design services include everything from branding and logo design to marketing materials and social media content. We work closely with you to create visually compelling designs that resonate with your audience and reflect your brand’s unique.",
+      "image": "./SVG/brand.svg"
+    }
+  ],
+  "whyChoose": [
+    {
+      "header": "Tailored Solutions",
+      "description": " We understand that every business is unique.That’s why we offer customized solutions designed to meet your specific needs and goals."
+    },
+    {
+      "header": "Expert Team",
+      "description": " Our team is made up of skilled professionals with years"
+    },
+    {
+      "header": "Client-Centered",
+      "description": " Your satisfaction is our priority. We are committed to delivering high-quality work on time and within budget."
+    },
+    {
+      "header": "Innovative Thinking",
+      "description": " We stay on the cutting edge of technology and design trends to ensure that your digital presence is always ahead of the curve."
+    }
+  ]
+}

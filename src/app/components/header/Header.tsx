@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 import ThemeToggle from "@/app/components/themeToggle/ThemeToggle";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { MdOutlineMenu } from "react-icons/md";
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
-// import LogoIcon from "/public/svg/logo.svg";
+import LogoIcon from "/public/svg/logo.svg";
 import { usePathname } from "next/navigation";
 import SideMenu from "./sideMenu/SideMenu";
 
@@ -16,16 +16,18 @@ const Header = () => {
 
   const menu = [
     { title: "home", url: "/" },
-    // { title: "about", url: "#about" },
+    { title: "about", url: "/about" },
     { title: "projects", url: "/project" },
     { title: "contact", url: "/contact" },
   ];
 
   return (
     <nav
-      className={`fixed top-0 w-full pt-6 flex justify-between items-center px-4 md:px-20 bg-light-background bg-opacity-95 dark:bg-dark-background z-50 dark:bg-opacity-95`}>
+      className={`h-20 fixed top-0 w-full flex justify-between items-center px-4 md:px-20 bg-light-background bg-opacity-95 dark:bg-dark-background z-50 dark:bg-opacity-95`}>
       <div className="flex gap-2">
-        <div className="w-6 relative top-1">{/* <LogoIcon /> */}</div>
+        <div className="w-6 relative top-1">
+          <Image src={LogoIcon} alt="logo" fill={true} />
+        </div>
         <h1 className="text-2xl font-extrabold">
           <span className="font-normal">Pixel</span>Perfect
         </h1>
@@ -38,7 +40,7 @@ const Header = () => {
               href={item.url}
               className={`${
                 pathname === item.url && "text-indigo-400"
-              } capitalize text-sm font-semibold hover:bg-neutral-200 dark:hover:bg-slate-800 hover:bg-opacity-20 hover:text-indigo-400 p-2 rounded-md`}>
+              } active:scale-95 capitalize text-sm font-semibold hover:bg-neutral-200 dark:hover:bg-slate-800 hover:bg-opacity-20 hover:text-indigo-400 p-2 rounded-md`}>
               {item.title}
             </Link>
           ))}

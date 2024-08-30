@@ -23,9 +23,9 @@ export default function Home() {
             Who We Are: At Pixel Perfect, we are a team of passionate designers,
             developers, and strategists with a shared goal: to create
             exceptional digital experiences. We believe that a well-designed
-            website or application is more than just a digital presence—it's a
-            powerful tool for engaging customers, telling your story, and
-            driving business growth.
+            website or application is more than just a digital
+            presence—it&apos;s a powerful tool for engaging customers, telling
+            your story, and driving business growth.
           </p>
           {/* </div> */}
           <Button

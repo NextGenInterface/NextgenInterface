@@ -25,8 +25,8 @@ const page = () => {
           Who We Are: At Pixel Perfect, we are a team of passionate designers,
           developers, and strategists with a shared goal: to create exceptional
           digital experiences. We believe that a well-designed website or
-          application is more than just a digital presence—it's a powerful tool
-          for engaging customers, telling your story, and driving business
+          application is more than just a digital presence—it&apos;s a powerful
+          tool for engaging customers, telling your story, and driving business
           growth.
         </p>
       </div>
@@ -60,8 +60,8 @@ const page = () => {
             to deliver solutions that are both innovative and effective.
           </p>
         </div>
-        <div className="my-20 ">
-          <div className="my-12 space-y-2 lg:grid lg:grid-cols-4 ">
+        <div className="my-20">
+          <div className="my-12 space-y-2 lg:grid lg:grid-cols-4">
             {whyChoose?.whyChoose.map((item: any, i: number) => (
               <article key={i} className="p-4">
                 <h1 className="font-bold">{item.header}</h1>

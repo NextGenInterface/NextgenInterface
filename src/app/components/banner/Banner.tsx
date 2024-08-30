@@ -7,7 +7,7 @@ const Banner = () => {
         take your digital presence to the next level?
       </p>
       <p className="text-4xl md:text-6xl lg:text-7xl font-black uppercase text-white lg:text-justify md:w-2/3 ">
-        Let’s start your digital business
+        Let’&apos;s start your digital business
       </p>
       <form className="flex md:w-2/3 my-12">
         <input

@@ -1,11 +1,10 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ThemeToggle from "@/app/components/themeToggle/ThemeToggle";
-import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
-import LogoIcon from "./public/svg/logo.svg";
+import LogoIcon from "../../../../public/SVG/logo.svg";
 import { usePathname } from "next/navigation";
 import SideMenu from "./sideMenu/SideMenu";
 

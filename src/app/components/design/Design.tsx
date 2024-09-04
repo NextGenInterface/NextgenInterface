@@ -7,8 +7,9 @@ const Design = () => {
   return (
     <div>
       <div className="columns-2 md:columns-3 w-full">
-        {pics.map((pic: any) => (
+        {pics.map((pic: any, i: number) => (
           <Image
+            key={i}
             src={pic}
             alt={pic}
             className="object-cover object-contains w-full h-full rounded-md shadow-mb overflow-hidden bg-white mb-4"

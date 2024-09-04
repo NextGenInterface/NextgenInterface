@@ -1,10 +1,10 @@
 "use client";
-import React, { FormEventHandler, useState } from "react";
+import React, { useState } from "react";
 import PageLayout from "../components/utils/pageLayout/PageLayout";
 import { TiTick } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
 
-const page = () => {
+const Page = () => {
   type FormType = {
     name: string;
     email: string;
@@ -130,4 +130,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

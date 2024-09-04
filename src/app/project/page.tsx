@@ -2,6 +2,7 @@ import React from "react";
 import ListContainer from "../components/listContainer/ListContainer";
 import Tab from "../components/utils/tab/Tab";
 import PageLayout from "../components/utils/pageLayout/PageLayout";
+import Design from "../components/design/Design";
 
 const page = () => {
   return (
@@ -18,7 +19,7 @@ const page = () => {
             </div>
           </div>
         }
-        tab2="tab 2"
+        tab2={<Design />}
       />
     </PageLayout>
   );

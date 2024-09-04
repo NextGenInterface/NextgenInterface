@@ -20,10 +20,10 @@ const Menu = ({
     <div
       className={`${
         !menuNav ? "hidden" : "visible"
-      } w-full px-4 fixed top-0 left-0 bg-light-background dark:bg-dark-background z-40 dark:bg-opacity-100 shadow-md`}>
+      } w-full h-full px-4 fixed top-0 left-0 bg-light-background dark:bg-dark-background z-40 dark:bg-opacity-100 shadow-md`}>
       <div className="flex justify-between items-center pt-6">
         <div className="flex gap-2">
-          <div className="w-6 relative top-1">
+          <div className="w-6 relative">
             <Image src={LogoIcon} alt="logo" fill={true} />
           </div>
           <h1 className="text-2xl font-extrabold">
@@ -36,7 +36,7 @@ const Menu = ({
         />
       </div>
       <div className="w-8 z-50"></div>
-      <div className="flex flex-col py-6">
+      <div className="flex flex-col py-6 h-full">
         {menu.map((item: any) => (
           <Link
             key={item.name}
@@ -48,7 +48,7 @@ const Menu = ({
             {item.title}
           </Link>
         ))}
-        <div className=" flex justify-end border border-neutral-300 dark:border-neutral-800 w-fit self-end rounded-md ">
+        <div className="absolute bottom-5 flex justify-end border border-neutral-300 dark:border-neutral-800 w-fit self-end rounded-md ">
           <ThemeToggle />
         </div>
       </div>

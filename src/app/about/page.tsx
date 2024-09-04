@@ -39,7 +39,7 @@ const page = () => {
           </h1>
         </div>
         <div className="my-20">
-          {cardData?.serviceeCard?.map((ser, i: number) => (
+          {cardData?.serviceCard?.map((ser, i: number) => (
             <AboutCard key={i} item={ser} />
           ))}
         </div>

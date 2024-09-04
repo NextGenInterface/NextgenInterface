@@ -9,8 +9,8 @@ const Hero = () => {
       <div className="absolute w-full h-full top-0">
         <BlurGradientBackground />
       </div>
-      <div className="relative flex flex-col items-center justify-center text-center">
-        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight ">
+      <div className="relative flex flex-col items-center justify-center text-center mt-6">
+        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
           Creativity
           <span className="bg-gradient-to-tl from-purple-800 via-purple-400 to-blue-700 inline-block text-transparent bg-clip-text">
             &

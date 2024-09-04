@@ -45,7 +45,7 @@ const ProjectCard = ({
         </div>
         <div className=" w-full flex-1">
           <div className="w-full h-full relative top-8 rounded-tl-md overflow-hidden group-hover:-rotate-3 group-hover:scale-105 ease-in-out duration-200 shadow-xl shadow-neutral-600 dark:shadow-neutral-900">
-            {image?.map((pics: any, i: number) => (
+            {image?.slice(0, 1).map((pics: any, i: number) => (
               <Image
                 key={i}
                 src={pics}

@@ -12,7 +12,6 @@ export default function Home() {
       <Hero />
       <PageLayout>
         <Section title="About us" id="about">
-          {/* <div className="w-full md:w-3/4"> */}
           <p className="text-light text-center text-xl">
             Welcome to Pixel Perfect, where creativity meets technology. We are
             a full-service digital agency specializing in web development,
@@ -27,7 +26,6 @@ export default function Home() {
             presence—it&apos;s a powerful tool for engaging customers, telling
             your story, and driving business growth.
           </p>
-          {/* </div> */}
           <Button
             title="Read more about us"
             link="/about"
@@ -35,9 +33,7 @@ export default function Home() {
           />
         </Section>
         <Section title="Projects" id="project">
-          {/* <div className="w-full md:w-1/2"> */}
           <ListContainer toShow={3} direction="col" />
-          {/* </div> */}
           <div className="flex justify-center my-12">
             <Button
               title="View more projects"

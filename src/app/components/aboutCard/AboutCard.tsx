@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { LiaPlusSolid } from "react-icons/lia";
+import { FadeUpAnimation } from "../../lib/aos/Animation";
 
 const AboutCard = ({
   item,
@@ -9,6 +11,7 @@ const AboutCard = ({
   item: any;
   direction?: "rtl" | "ltr";
 }) => {
+  FadeUpAnimation();
   const { area, title, description, image } = item;
   return (
     <div
@@ -21,6 +24,8 @@ const AboutCard = ({
           fill={true}
           className="w-full h-full object-contain over object-center"
           unoptimized
+          data-aos="zoom-in-up"
+          data-aos-duration="600"
         />
       </div>
       <div className="mt-6 md:mt-0 space-y-3 w-full">

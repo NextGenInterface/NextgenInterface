@@ -6,10 +6,10 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["html", "javscript", "sass"],
       "image": [
-        "../images/BlackWolfSecurity/1.svg",
-        "../images/BlackWolfSecurity/2.svg",
-        "../images/BlackWolfSecurity/3.svg",
-        "../images/BlackWolfSecurity/4.svg"
+        "../images/BlackWolfSecurity/img1.webp",
+        "../images/BlackWolfSecurity/img2.webp",
+        "../images/BlackWolfSecurity/img3.webp",
+        "../images/BlackWolfSecurity/img4.webp"
       ]
     },
     {
@@ -18,12 +18,13 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws"],
       "image": [
-        "../images/BookingApp/booking1.svg",
-        "../images/BookingApp/booking2.svg",
-        "../images/BookingApp/booking3.svg",
-        "../images/BookingApp/booking4.svg",
-        "../images/BookingApp/booking5.svg",
-        "../images/BookingApp/booking6.svg"
+        "../images/BookingApp/img1.webp",
+        "../images/BookingApp/img3.webp",
+        "../images/BookingApp/img4.webp",
+        "../images/BookingApp/img5.webp",
+        "../images/BookingApp/img6.webp",
+        "../images/BookingApp/img7.webp",
+        "../images/BookingApp/img8.webp"
       ]
     },
     {
@@ -32,14 +33,14 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["css", "javascript", "bootstrap", "html"],
       "image": [
-        "../images/Elitek9/elite1.svg",
-        "../images/Elitek9/elite2.svg",
-        "../images/Elitek9/elite3.svg",
-        "../images/Elitek9/elite4.svg",
-        "../images/Elitek9/elite5.svg",
-        "../images/Elitek9/elite6.svg",
-        "../images/Elitek9/elite7.svg",
-        "../images/Elitek9/elite8.svg"
+        "../images/Elitek9/img1.webp",
+        "../images/Elitek9/img2.webp",
+        "../images/Elitek9/img3.webp",
+        "../images/Elitek9/img4.webp",
+        "../images/Elitek9/img5.webp",
+        "../images/Elitek9/img6.webp",
+        "../images/Elitek9/img7.webp",
+        "../images/Elitek9/img8.webp"
       ]
     },
     {
@@ -48,8 +49,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["css", "javascript", "bootstrap", "html"],
       "image": [
-        "../images/Inventory/invent1.svg",
-        "../images/Inventory/invent2.svg"
+        "../images/Inventory/img1.webp",
+        "../images/Inventory/img2.webp"
       ]
     },
     {
@@ -66,11 +67,11 @@
         "html"
       ],
       "image": [
-        "../images/Jimgos/jim1.svg",
-        "../images/Jimgos/jim2.svg",
-        "../images/Jimgos/jim3.svg",
-        "../images/Jimgos/jim5.svg",
-        "../images/Jimgos/jim6.svg"
+        "../images/Jimgos/img1.webp",
+        "../images/Jimgos/img2.webp",
+        "../images/Jimgos/img3.webp",
+        "../images/Jimgos/img4.webp",
+        "../images/Jimgos/img5.webp"
       ]
     },
     {
@@ -79,8 +80,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws"],
       "image": [
-        "../images/RecipeFinder/rec1.svg",
-        "../images/RecipeFinder/rec2.svg"
+        "../images/RecipeFinder/img1.webp",
+        "../images/RecipeFinder/img2.webp"
       ]
     },
     {
@@ -89,13 +90,13 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws"],
       "image": [
-        "../images/TinaPokuaah/tina1.svg",
-        "../images/TinaPokuaah/tina2.svg",
-        "../images/TinaPokuaah/tina3.svg",
-        "../images/TinaPokuaah/tina4.svg",
-        "../images/TinaPokuaah/tina5.svg",
-        "../images/TinaPokuaah/tina6.svg",
-        "../images/TinaPokuaah/tina7.svg"
+        "../images/TinaPokuaah/img1.webp",
+        "../images/TinaPokuaah/img2.webp",
+        "../images/TinaPokuaah/img3.webp",
+        "../images/TinaPokuaah/img4.webp",
+        "../images/TinaPokuaah/img5.webp",
+        "../images/TinaPokuaah/img6.webp",
+        "../images/TinaPokuaah/img7.webp"
       ]
     },
     {
@@ -104,11 +105,28 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws"],
       "image": [
-        "../images/Compass/compass1.svg",
-        "../images/Compass/compass2.svg",
-        "../images/Compass/compass3.svg",
-        "../images/Compass/compass4.svg",
-        "../images/Compass/compass5.svg"
+        "../images/Compass/img1.webp",
+        "../images/Compass/img2.webp",
+        "../images/Compass/img3.webp",
+        "../images/Compass/img4.webp",
+        "../images/Compass/img5.webp"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "eccomerce",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["tailwind", "react", "aws"],
+      "image": [
+        "../images/Ecomerce/img1.webp",
+        "../images/Ecomerce/img2.webp",
+        "../images/Ecomerce/img3.webp",
+        "../images/Ecomerce/img4.webp",
+        "../images/Ecomerce/img5.webp",
+        "../images/Ecomerce/img6.webp",
+        "../images/Ecomerce/img7.webp",
+        "../images/Ecomerce/img8.webp",
+        "../images/Ecomerce/img9.webp"
       ]
     }
   ]

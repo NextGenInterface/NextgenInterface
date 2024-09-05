@@ -12,15 +12,20 @@ import Html5 from "../../Assets/icons/html5/html5-original-wordmark.svg";
 import Java from "../../Assets/icons/java/java-original-wordmark.svg";
 import Mongo from "../../Assets/icons/mongodb/mongodb-original-wordmark.svg";
 import Aws from "../../Assets/icons//amazonwebservices/amazonwebservices-original-wordmark.svg";
-import Nextjs from "../../Assets/icons/nextjs/nextjs-original-wordmark.svg";
+import Nextjs from "../../Assets/icons/nextjs/nextjs-original.svg";
 import Vite from "../../Assets/icons/vite/vite-original-wordmark.svg";
 import Tailwind from "../../Assets/icons/tailwindcss/tailwindcss-original-wordmark.svg";
 import Sass from "../../Assets/icons/sass/sass-original.svg";
 import Photoshop from "../../Assets/icons/photoshop/photoshop-original.svg";
-import Vercel from "../../Assets/icons/vercel/vercel-original-wordmark.svg";
+import Vercel from "../../Assets/icons/vercel/vercel-line-wordmark.svg";
 import Nodejs from "../../Assets/icons/nodejs/nodejs-plain-wordmark.svg";
 import Typescript from "../../Assets/icons/typescript/typescript-original.svg";
 import Javascript from "../../Assets/icons/javascript/javascript-original.svg";
+import boot from "../../Assets/icons/bootstrap/bootstrap-original-wordmark.svg";
+import three from "../../Assets/icons/threejs/threejs-original-wordmark.svg";
+import python from "../../Assets/icons/python/python-original-wordmark.svg";
+import redux from "../../Assets/icons/redux/redux-original.svg";
+
 import { FadeUpAnimation } from "../../lib/aos/Animation";
 
 const TechStack = () => {
@@ -63,12 +68,22 @@ const TechStack = () => {
           className="object-center object-contains w-16"
         />
         <Image
+          src={python}
+          alt="Bootstrap"
+          className="object-center object-contains w-16"
+        />
+        <Image
           src={GitHub}
           alt="GitHub"
           className="object-center object-contains w-16"
         />
         <Image
           src={Graphql}
+          alt="Graphql"
+          className="object-center object-contains w-16"
+        />
+        <Image
+          src={redux}
           alt="Graphql"
           className="object-center object-contains w-16"
         />
@@ -119,6 +134,16 @@ const TechStack = () => {
         />
         <Image
           src={Firebase}
+          alt="Firebase"
+          className="object-center object-contains w-16"
+        />
+        <Image
+          src={boot}
+          alt="Firebase"
+          className="object-center object-contains w-16"
+        />
+        <Image
+          src={three}
           alt="Firebase"
           className="object-center object-contains w-16"
         />

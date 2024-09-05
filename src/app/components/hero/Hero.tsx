@@ -32,7 +32,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="absolute -bottom-60 w-full h-[80vh] bg-[url('/images/codeing.jpg')] bg-cover bg-center -z-20 mix-blend-exclusion opacity-20 dark:mix-blend-color-dodge dark:opacity-100">
+      <div className="absolute -bottom-60 w-full h-[80vh] bg-[url('/images/codeing.webp')] bg-cover bg-center -z-20 mix-blend-exclusion opacity-20 dark:mix-blend-color-dodge dark:opacity-100">
         <div className="absolute w-full h-full bg-gradient-to-b from-black via-transparent to-black dark:from-dark-background dark:via-transparent dark:to-dark-background"></div>
       </div>
     </div>

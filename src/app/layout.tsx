@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { lexend, poppins } from "./Assets/Font/Fonts";
+import { lexend } from "./Assets/Font/Fonts";
 import Provider from "./lib/themeProvider/Provider";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";

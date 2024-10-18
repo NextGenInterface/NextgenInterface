@@ -5,6 +5,7 @@ import Button from "../components/utils/button/Button";
 import Section from "../components/utils/section/Section";
 import TechStack from "../components/techStack/TechStack";
 import PageLayout from "../components/utils/pageLayout/PageLayout";
+import "./globals.css";
 
 export default function Home() {
   return (
@@ -42,8 +43,10 @@ export default function Home() {
             />
           </div>
         </Section>
-        <TechStack />
       </PageLayout>
+      <div className="bg-neutral-200 dark:bg-neutral-900 py-12">
+        <TechStack />
+      </div>
     </main>
   );
 }

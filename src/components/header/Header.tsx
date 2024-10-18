@@ -4,14 +4,17 @@ import ThemeToggle from "@/components/themeToggle/ThemeToggle";
 import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
-import Logo_light from "../../../public/SVG/pixelperfect_blue_logo.png";
-import Logo_dark from "../../../public/SVG/pixelperfect_white_logo.png";
+import Logo_light from "../../../public/images/pixelperfect_blue_logo.webp";
+import Logo_dark from "../../../public/images/pixelperfect_white_logo.webp";
 
 import { usePathname } from "next/navigation";
 import SideMenu from "./sideMenu/SideMenu";
+import { useTheme } from "next-themes";
 
 const Header = () => {
   const [menuNav, setMenuNav] = useState(false);
+
+  const { resolvedTheme } = useTheme();
 
   const pathname = usePathname();
 
@@ -24,16 +27,14 @@ const Header = () => {
 
   return (
     <nav
-      className={`h-20 fixed top-0 w-full flex justify-between items-center px-4 md:px-20 bg-light-background bg-opacity-95 dark:bg-dark-background z-50 dark:bg-opacity-95`}>
-      <div className="flex gap-2">
-        <div className="w-6 relative">
-          {/* <Image src={Logo_light} alt="logo" fill={true} priority />
-           */}
-          {/* <img src={Logo_light} alt="" /> */}
-        </div>
-        <h1 className="text-2xl font-extrabold">
-          <span className="font-normal">Pixel</span>Perfect
-        </h1>
+      className={`h-20 w-full flex justify-between items-center px-4 md:px-20`}>
+      <div className="w-16 h-16 relative">
+        <Image
+          src={resolvedTheme === "dark" ? Logo_dark : Logo_light}
+          alt="logo"
+          priority
+          className="object-contain object-center w-full h-full"
+        />
       </div>
       <div className="h-full flex items-center justify-center gap-2">
         <ul className=" hidden md:flex gap-4">

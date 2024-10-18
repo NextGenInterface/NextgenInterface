@@ -1,8 +1,8 @@
 import React from "react";
-import ListContainer from "../components/listContainer/ListContainer";
-import Tab from "../components/utils/tab/Tab";
-import PageLayout from "../components/utils/pageLayout/PageLayout";
-import Design from "../components/design/Design";
+import ListContainer from "../../components/listContainer/ListContainer";
+import Tab from "../../components/utils/tab/Tab";
+import PageLayout from "../../components/utils/pageLayout/PageLayout";
+import Design from "../../components/design/Design";
 
 const page = () => {
   return (

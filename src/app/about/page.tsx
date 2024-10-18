@@ -1,9 +1,9 @@
 import React from "react";
-import PageLayout from "../components/utils/pageLayout/PageLayout";
+import PageLayout from "../../components/utils/pageLayout/PageLayout";
 import whyChoose from "./data.json";
 import cardData from "./data.json";
-import Banner from "../components/banner/Banner";
-import AboutCard from "../components/aboutCard/AboutCard";
+import Banner from "../../components/banner/Banner";
+import AboutCard from "../../components/aboutCard/AboutCard";
 
 const page = () => {
   return (

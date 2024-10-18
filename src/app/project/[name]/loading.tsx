@@ -1,5 +1,5 @@
 import React from "react";
-import LoadingAnimate from "../../components/utils/LoadingAnimate/LoadingAnimate";
+import LoadingAnimate from "../../../components/utils/LoadingAnimate/LoadingAnimate";
 
 const loading = () => {
   return (

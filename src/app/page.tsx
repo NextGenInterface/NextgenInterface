@@ -1,10 +1,10 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
-import Hero from "./components/hero/Hero";
-import ListContainer from "./components/listContainer/ListContainer";
-import Button from "./components/utils/button/Button";
-import Section from "./components/utils/section/Section";
-import TechStack from "./components/techStack/TechStack";
-import PageLayout from "./components/utils/pageLayout/PageLayout";
+import Hero from "../components/hero/Hero";
+import ListContainer from "../components/listContainer/ListContainer";
+import Button from "../components/utils/button/Button";
+import Section from "../components/utils/section/Section";
+import TechStack from "../components/techStack/TechStack";
+import PageLayout from "../components/utils/pageLayout/PageLayout";
 
 export default function Home() {
   return (

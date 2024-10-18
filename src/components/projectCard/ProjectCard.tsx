@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image, { StaticImageData } from "next/image";
-import { FadeUpAnimation } from "../../lib/aos/Animation";
+import { FadeUpAnimation } from "../../app/lib/aos/Animation";
 import Link from "next/link";
 
 const ProjectCard = ({

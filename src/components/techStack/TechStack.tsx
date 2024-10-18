@@ -26,7 +26,7 @@ import three from "../../Assets/icons/threejs/threejs-original-wordmark.svg";
 import python from "../../Assets/icons/python/python-original-wordmark.svg";
 import redux from "../../Assets/icons/redux/redux-original.svg";
 
-import { FadeUpAnimation } from "../../lib/aos/Animation";
+import { FadeUpAnimation } from "../../app/lib/aos/Animation";
 
 const TechStack = () => {
   FadeUpAnimation();

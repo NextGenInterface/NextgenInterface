@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import PageLayout from "../components/utils/pageLayout/PageLayout";
+import PageLayout from "../../components/utils/pageLayout/PageLayout";
 import { TiTick } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
 

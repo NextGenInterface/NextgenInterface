@@ -3,7 +3,7 @@ import React from "react";
 import { IoMdClose } from "react-icons/io";
 import ThemeToggle from "../../themeToggle/ThemeToggle";
 import Image from "next/image";
-import LogoIcon from "../../../../../public/SVG/logo.svg";
+// import LogoIcon from "../../../../../public/SVG/logo.svg";
 
 const Menu = ({
   menuNav,
@@ -24,7 +24,7 @@ const Menu = ({
       <div className="flex justify-between items-center pt-6">
         <div className="flex gap-2">
           <div className="w-6 relative">
-            <Image src={LogoIcon} alt="logo" fill={true} />
+            {/* <Image src={LogoIcon} alt="logo" fill={true} /> */}
           </div>
           <h1 className="text-2xl font-extrabold">
             <span className="font-normal">Pixel</span>Perfect

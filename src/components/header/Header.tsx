@@ -1,10 +1,12 @@
 "use client";
 import React, { useState } from "react";
-import ThemeToggle from "@/app/components/themeToggle/ThemeToggle";
+import ThemeToggle from "@/components/themeToggle/ThemeToggle";
 import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
-import LogoIcon from "../../../../public/SVG/logo.svg";
+import Logo_light from "../../../public/SVG/pixelperfect_blue_logo.png";
+import Logo_dark from "../../../public/SVG/pixelperfect_white_logo.png";
+
 import { usePathname } from "next/navigation";
 import SideMenu from "./sideMenu/SideMenu";
 
@@ -25,7 +27,9 @@ const Header = () => {
       className={`h-20 fixed top-0 w-full flex justify-between items-center px-4 md:px-20 bg-light-background bg-opacity-95 dark:bg-dark-background z-50 dark:bg-opacity-95`}>
       <div className="flex gap-2">
         <div className="w-6 relative">
-          <Image src={LogoIcon} alt="logo" fill={true} />
+          {/* <Image src={Logo_light} alt="logo" fill={true} priority />
+           */}
+          {/* <img src={Logo_light} alt="" /> */}
         </div>
         <h1 className="text-2xl font-extrabold">
           <span className="font-normal">Pixel</span>Perfect

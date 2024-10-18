@@ -6,19 +6,19 @@ import Button from "../utils/button/Button";
 const Hero = () => {
   return (
     <div className="w-full px-4 md:px-0 h-[100vh] md:h-[100vh] flex flex-col justify-center items-center relative">
-      <div className="absolute w-full h-full top-0">
-        <BlurGradientBackground />
-      </div>
-      <div className="relative flex flex-col items-center justify-center text-center mt-6">
+      <div className="relative flex flex-col items-center justify-center text-center w-2/3">
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
           Creativity
           <span className="bg-gradient-to-tl from-purple-800 via-purple-400 to-blue-700 inline-block text-transparent bg-clip-text">
             &
           </span>
-          Functionality. Transforming <br /> Ideas into Digital Masterpieces
+          Functionality.
+        </h1>
+        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
+          Transforming Ideas into Digital Masterpieces
         </h1>
         <br />
-        <p className="text-center w-full md:w-2/3 text-md md:text-xl text-neutral-700 dark:text-slate-400  ">
+        <p className="text-center w-full  text-md md:text-xl text-neutral-700 dark:text-slate-400  ">
           Web Developer & Designer dedicated to bringing your ideas to life.
           With a keen eye for design and a knack for coding, creating stunning
           websites and graphics that not only look good but also perform

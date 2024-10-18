@@ -1,5 +1,5 @@
 import React from "react";
-import projectData from "../../../../projectData.json";
+import projectData from "../../../projectData.json";
 import Image from "next/image";
 
 export function generateStaticParams() {

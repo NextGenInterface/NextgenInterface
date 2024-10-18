@@ -1,5 +1,5 @@
 import React from "react";
-import projectData from "../../../projectData.json";
+import projectData from "../../projectData.json";
 import ProjectCard from "../projectCard/ProjectCard";
 
 const arrayLength = projectData.projects.length;

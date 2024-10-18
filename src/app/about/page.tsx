@@ -9,7 +9,7 @@ const page = () => {
   return (
     <PageLayout>
       <div className="text-center mt-32 md:mb-20">
-        <p className="uppercase text-themeColor">about</p>
+        <p className="uppercase text-themeColor font-medium">about</p>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           Pixel Perfect Agency
         </h1>
@@ -33,7 +33,7 @@ const page = () => {
 
       <div className="my-12 space-y-2">
         <div className="text-center md:mt-32 md:mb-20">
-          <p className="uppercase text-themeColor">services</p>
+          <p className="uppercase text-themeColor font-medium">services</p>
           <h1 className="self-start text-4xl md:text-5xl font-bold mb-6">
             What We Do
           </h1>
@@ -46,7 +46,9 @@ const page = () => {
       </div>
       <div className="my-12 space-y-2">
         <div className="text-center md:mt-32 md:mb-20">
-          <p className="uppercase text-themeColor">Why Choose Us?</p>
+          <p className="uppercase text-themeColor font-medium">
+            Why Choose Us?
+          </p>
           <h1 className="self-start text-4xl md:text-5xl font-bold mb-6">
             Our Approach
           </h1>

@@ -1,10 +1,10 @@
 import React from "react";
-import LoadingAnimate from "../../../components/utils/LoadingAnimate/LoadingAnimate";
+import "../../globals.css";
 
 const loading = () => {
   return (
     <div className="w-full h-[100vh] flex flex-col items-center justify-center">
-      <LoadingAnimate />
+      <div className="loader"></div>
     </div>
   );
 };

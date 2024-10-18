@@ -21,19 +21,20 @@ const AboutCard = ({
         <Image
           src={image}
           alt="pic"
+          className="w-full h-full object-cover object-center"
           fill={true}
-          className="w-full h-full object-contain over object-center"
-          unoptimized
+          // unoptimized
+          priority
           data-aos="zoom-in-up"
           data-aos-duration="600"
         />
       </div>
       <div className="mt-6 md:mt-0 space-y-3 w-full">
-        <h1 className="uppercase flex items-center gap-2">
+        <div className="flex gap-2">
           <LiaPlusSolid className="text-themeColor" />
-          {area}
-        </h1>
-        <h1 className="text-4xl ">{title}</h1>
+          <h1 className="uppercase flex items-center gap-2 ">{area}</h1>
+        </div>
+        <h1 className="text-4xl font-medium">{title}</h1>
         <p>{description}</p>
       </div>
     </div>

@@ -6,33 +6,47 @@ import Section from "../components/utils/section/Section";
 import TechStack from "../components/techStack/TechStack";
 import PageLayout from "../components/utils/pageLayout/PageLayout";
 import "./globals.css";
+import Image from "next/image";
+import background from "../../public/images/about.png";
+import Panel from "@/components/panel/Panel";
 
 export default function Home() {
   return (
     <main className="">
+      <div className="absolute w-full h-[120vh] -top-10 bg-[url('/images/background.jpg')] bg-cover bg-no-repeat bg-center -z-20 mix-blend-color-dodge grayscale">
+        <div className="absolute w-full h-full bg-gradient-to-b from-background via-transparent to-background mix-blend-darken"></div>
+        <div className="absolute w-full h-full bg-background opacity-10 "></div>
+      </div>
       <Hero />
       <PageLayout>
-        <Section title="About us" id="about">
-          <p className="text-light text-center text-xl">
-            Welcome to Pixel Perfect, where creativity meets technology. We are
-            a full-service digital agency specializing in web development,
-            graphic design, and UI/UX design. Our mission is to bring your ideas
-            to life through innovative design and cutting-edge technology.
-            <br />
-            <br />
-            Who We Are: At Pixel Perfect, we are a team of passionate designers,
-            developers, and strategists with a shared goal: to create
-            exceptional digital experiences. We believe that a well-designed
-            website or application is more than just a digital
-            presence—it&apos;s a powerful tool for engaging customers, telling
-            your story, and driving business growth.
-          </p>
-          <Button
-            title="Read more about us"
-            link="/about"
-            icon={<IoIosArrowRoundForward className="text-xl" />}
+        <Panel />
+        <div className="flex gap-4 my-36">
+          <Image
+            src={background}
+            width={400}
+            height={100}
+            alt="about-us"
+            className="object-contain object-center"
           />
-        </Section>
+          <div className="space-y-3">
+            <h1 className="font-bold">ABOUT US</h1>
+            <p className="font-light ">
+              Welcome to Pixel Perfect, where creativity meets technology. We
+              are a full-service digital agency specializing in web development,
+              graphic design, and UI/UX design. Our mission is to bring your
+              ideas to life through innovative design and cutting-edge
+              technology.
+            </p>
+            <p>
+              Who We Are: At Pixel Perfect, we are a team of passionate
+              designers, developers, and strategists with a shared goal: to
+              create exceptional digital experiences. We believe that a
+              well-designed website or application is more than just a digital
+              presence—it&apos;s a powerful tool for engaging customers, telling
+              your story, and driving business growth.
+            </p>
+          </div>
+        </div>
         <Section title="Projects" id="project">
           <ListContainer toShow={3} direction="col" />
           <div className="flex justify-center my-12">

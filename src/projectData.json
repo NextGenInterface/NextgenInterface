@@ -1,57 +1,41 @@
 {
   "projects": [
     {
-      "id": "1",
-      "name": "black wolf security",
+      "id": "12",
+      "name": "flights and packages",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
-      "stack": ["html", "javscript", "sass"],
+      "stack": ["tailwind", "react", "aws", "postgres"],
       "image": [
-        "../images/BlackWolfSecurity/img1.webp",
-        "../images/BlackWolfSecurity/img2.webp",
-        "../images/BlackWolfSecurity/img3.webp",
-        "../images/BlackWolfSecurity/img4.webp"
-      ]
+        "../images/Flights&packages/laptop.png",
+        "../images/Flights&packages/tablet.png",
+        "../images/Flights&packages/mobile.png"
+      ],
+      "type": "web application"
     },
     {
-      "id": "2",
-      "name": "Booking web app",
+      "id": "9",
+      "name": "carmel",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
-      "stack": ["tailwind", "react", "aws"],
+      "stack": ["tailwind", "react", "aws", "postgres"],
       "image": [
-        "../images/BookingApp/img1.webp",
-        "../images/BookingApp/img3.webp",
-        "../images/BookingApp/img4.webp",
-        "../images/BookingApp/img5.webp",
-        "../images/BookingApp/img6.webp",
-        "../images/BookingApp/img7.webp",
-        "../images/BookingApp/img8.webp"
-      ]
+        "../images/Carmel/tablet.png",
+        "../images/Carmel/laptop.png",
+        "../images/Carmel/mobile.png",
+        "../images/Carmel/mobile-app.png"
+      ],
+      "type": "web application"
     },
     {
-      "id": "3",
-      "name": "elike k9",
+      "id": "9",
+      "name": "invoice app",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
-      "stack": ["css", "javascript", "bootstrap", "html"],
+      "stack": ["tailwind", "react", "aws", "postgres"],
       "image": [
-        "../images/Elitek9/img1.webp",
-        "../images/Elitek9/img2.webp",
-        "../images/Elitek9/img3.webp",
-        "../images/Elitek9/img4.webp",
-        "../images/Elitek9/img5.webp",
-        "../images/Elitek9/img6.webp",
-        "../images/Elitek9/img7.webp",
-        "../images/Elitek9/img8.webp"
-      ]
-    },
-    {
-      "id": "4",
-      "name": "inventory",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
-      "stack": ["css", "javascript", "bootstrap", "html"],
-      "image": [
-        "../images/Inventory/img1.webp",
-        "../images/Inventory/img2.webp"
-      ]
+        "../images/InvoiceApp/tablet.png",
+        "../images/InvoiceApp/lightmobile.png",
+        "../images/InvoiceApp/darkmobile.png"
+      ],
+      "type": "web application"
     },
     {
       "id": "5",
@@ -67,50 +51,40 @@
         "html"
       ],
       "image": [
-        "../images/Jimgos/img1.webp",
-        "../images/Jimgos/img2.webp",
-        "../images/Jimgos/img3.webp",
-        "../images/Jimgos/img4.webp",
-        "../images/Jimgos/img5.webp"
-      ]
+        "../images/Jimgos/mobile.png",
+        "../images/Jimgos/app-screens.png",
+        "../images/Jimgos/img3.png"
+      ],
+      "type": "web application"
     },
     {
-      "id": "6",
-      "name": "recipe finder",
+      "id": "1",
+      "name": "black wolf security",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["html", "javscript", "sass", "css"],
+      "image": [
+        "../images/BlackWolfSecurity/desktop.png",
+        "../images/BlackWolfSecurity/mobile.png",
+        "../images/BlackWolfSecurity/full_screen.png"
+      ],
+      "link": "https://blackwolfsecurity.org/"
+    },
+
+    {
+      "id": "2",
+      "name": "Booking web app",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws"],
       "image": [
-        "../images/RecipeFinder/img1.webp",
-        "../images/RecipeFinder/img2.webp"
-      ]
-    },
-    {
-      "id": "7",
-      "name": "tina pokuaah",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
-      "stack": ["tailwind", "react", "aws"],
-      "image": [
-        "../images/TinaPokuaah/img1.webp",
-        "../images/TinaPokuaah/img2.webp",
-        "../images/TinaPokuaah/img3.webp",
-        "../images/TinaPokuaah/img4.webp",
-        "../images/TinaPokuaah/img5.webp",
-        "../images/TinaPokuaah/img6.webp",
-        "../images/TinaPokuaah/img7.webp"
-      ]
-    },
-    {
-      "id": "8",
-      "name": "compass",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
-      "stack": ["tailwind", "react", "aws"],
-      "image": [
-        "../images/Compass/img1.webp",
-        "../images/Compass/img2.webp",
-        "../images/Compass/img3.webp",
-        "../images/Compass/img4.webp",
-        "../images/Compass/img5.webp"
-      ]
+        "../images/BookingApp/img1.webp",
+        "../images/BookingApp/img3.webp",
+        "../images/BookingApp/img4.webp",
+        "../images/BookingApp/img5.webp",
+        "../images/BookingApp/img6.webp",
+        "../images/BookingApp/img7.webp",
+        "../images/BookingApp/img8.webp"
+      ],
+      "type": "web application"
     },
     {
       "id": "9",
@@ -127,6 +101,74 @@
         "../images/Ecomerce/img7.webp",
         "../images/Ecomerce/img8.webp",
         "../images/Ecomerce/img9.webp"
+      ],
+      "type": "web application"
+    },
+
+    {
+      "id": "4",
+      "name": "inventory",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["css", "javascript", "bootstrap", "html"],
+      "image": [
+        "../images/Inventory/img1.webp",
+        "../images/Inventory/img2.webp"
+      ]
+    },
+
+    {
+      "id": "6",
+      "name": "recipe finder",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["tailwind", "react", "aws"],
+      "image": [
+        "../images/RecipeFinder/img1.webp",
+        "../images/RecipeFinder/img2.webp"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "compass",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["tailwind", "react", "aws"],
+      "image": [
+        "../images/Compass/img1.webp",
+        "../images/Compass/img2.webp",
+        "../images/Compass/img3.webp",
+        "../images/Compass/img4.webp",
+        "../images/Compass/img5.webp"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "tina pokuaah",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["tailwind", "react", "aws"],
+      "image": [
+        "../images/TinaPokuaah/img7.webp",
+        "../images/TinaPokuaah/img1.webp",
+        "../images/TinaPokuaah/img2.webp",
+        "../images/TinaPokuaah/img3.webp",
+        "../images/TinaPokuaah/img4.webp",
+        "../images/TinaPokuaah/img5.webp",
+        "../images/TinaPokuaah/img6.webp"
+      ]
+    },
+
+    {
+      "id": "3",
+      "name": "elike k9",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": ["css", "javascript", "bootstrap", "html"],
+      "image": [
+        "../images/Elitek9/img7.webp",
+        "../images/Elitek9/img8.webp",
+        "../images/Elitek9/img1.webp",
+        "../images/Elitek9/img2.webp",
+        "../images/Elitek9/img3.webp",
+        "../images/Elitek9/img4.webp",
+        "../images/Elitek9/img5.webp",
+        "../images/Elitek9/img6.webp"
       ]
     }
   ]

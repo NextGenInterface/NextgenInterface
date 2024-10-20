@@ -1,18 +1,18 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ThemeToggle from "@/components/themeToggle/ThemeToggle";
 import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
 import Logo_light from "../../../public/images/pixelperfect_blue_logo.webp";
 import Logo_dark from "../../../public/images/pixelperfect_white_logo.webp";
-
 import { usePathname } from "next/navigation";
 import SideMenu from "./sideMenu/SideMenu";
 import { useTheme } from "next-themes";
 
 const Header = () => {
   const [menuNav, setMenuNav] = useState(false);
+  const [header, setHeader] = useState(false);
 
   const { resolvedTheme } = useTheme();
 
@@ -25,9 +25,25 @@ const Header = () => {
     { title: "contact", url: "/contact" },
   ];
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 80) {
+        setHeader(true);
+      } else {
+        setHeader(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <nav
-      className={`h-20 w-full flex justify-between items-center px-4 md:px-20`}>
+      className={`h-20 w-full flex fixed top-0 justify-between items-center px-4 md:px-10 z-50 ${
+        header && "bg-[#171717] opacity-95 transition ease-in-out"
+      }`}>
       <div className="w-16 h-16 relative">
         <Image
           src={resolvedTheme === "dark" ? Logo_dark : Logo_light}
@@ -38,9 +54,9 @@ const Header = () => {
       </div>
       <div className="h-full flex items-center justify-center gap-2">
         <ul className=" hidden md:flex gap-4">
-          {menu.map((item: any) => (
+          {menu.map((item: any, idx: number) => (
             <Link
-              key={item.name}
+              key={idx}
               href={item.url}
               className={`${
                 pathname === item.url && "text-indigo-400"
@@ -48,8 +64,8 @@ const Header = () => {
               {item.title}
             </Link>
           ))}
-          <div className="text-3xl font-light text-slate-800">|</div>
-          <ThemeToggle />
+          {/* <div className="text-3xl font-light text-slate-800">|</div> */}
+          {/* <ThemeToggle /> */}
         </ul>
       </div>
       <div className="md:hidden text-white text-3xl">
@@ -63,6 +79,7 @@ const Header = () => {
         setMenuNav={setMenuNav}
         menu={menu}
         pathname={pathname}
+        resolvedTheme={resolvedTheme}
       />
     </nav>
   );

@@ -10,7 +10,7 @@ const Section = ({
   title?: string;
 }) => {
   return (
-    <section className="relative mb-24" id={id}>
+    <section className="relative mt-28 mb-24" id={id}>
       <div className="flex flex-col gap-10 justify-center items-center">
         {title && (
           <h1 className="text-4xl font-extrabold text-center p-4">{title}</h1>

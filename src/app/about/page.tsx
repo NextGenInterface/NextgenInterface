@@ -8,7 +8,7 @@ import AboutCard from "../../components/aboutCard/AboutCard";
 const page = () => {
   return (
     <PageLayout>
-      <div className="text-center mt-32 md:mb-20">
+      <div className="text-center mt-24 md:mb-20">
         <p className="uppercase text-themeColor font-medium">about</p>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           Pixel Perfect Agency

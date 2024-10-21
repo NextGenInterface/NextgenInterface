@@ -23,7 +23,6 @@ const AboutCard = ({
           alt="pic"
           className="w-full h-full object-cover object-center"
           fill={true}
-          // unoptimized
           priority
           data-aos="zoom-in-up"
           data-aos-duration="600"

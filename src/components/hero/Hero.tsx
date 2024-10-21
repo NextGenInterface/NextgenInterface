@@ -1,5 +1,4 @@
 import React from "react";
-import BlurGradientBackground from "../blurGradientBackground/BlurGradientBackground";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Button from "../utils/button/Button";
 

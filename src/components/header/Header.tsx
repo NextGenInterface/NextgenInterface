@@ -64,7 +64,6 @@ const Header = () => {
               {item.title}
             </Link>
           ))}
-          {/* <div className="text-3xl font-light text-slate-800">|</div> */}
           {/* <ThemeToggle /> */}
         </ul>
       </div>

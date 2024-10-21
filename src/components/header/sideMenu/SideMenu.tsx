@@ -2,19 +2,22 @@ import Link from "next/link";
 import React from "react";
 import { IoMdClose } from "react-icons/io";
 import ThemeToggle from "../../themeToggle/ThemeToggle";
+import Logo_light from "../../../../public/images/pixelperfect_blue_logo.webp";
+import Logo_dark from "../../../../public/images/pixelperfect_white_logo.webp";
 import Image from "next/image";
-// import LogoIcon from "../../../../../public/SVG/logo.svg";
 
 const Menu = ({
   menuNav,
   setMenuNav,
   menu,
   pathname,
+  resolvedTheme,
 }: {
   menuNav: boolean;
   setMenuNav: any;
   menu: {}[];
   pathname: string;
+  resolvedTheme: string | undefined;
 }) => {
   return (
     <div
@@ -24,7 +27,13 @@ const Menu = ({
       <div className="flex justify-between items-center pt-6">
         <div className="flex gap-2">
           <div className="w-6 relative">
-            {/* <Image src={LogoIcon} alt="logo" fill={true} /> */}
+            <Image
+              src={resolvedTheme === "dark" ? Logo_dark : Logo_light}
+              alt="logo"
+              priority
+              fill={true}
+              className="object-contain object-center w-full h-full"
+            />
           </div>
           <h1 className="text-2xl font-extrabold">
             <span className="font-normal">Pixel</span>Perfect
@@ -37,9 +46,9 @@ const Menu = ({
       </div>
       <div className="w-8 z-50"></div>
       <div className="flex flex-col py-6 h-full">
-        {menu.map((item: any) => (
+        {menu.map((item: any, idx: number) => (
           <Link
-            key={item.name}
+            key={idx}
             onClick={() => setMenuNav(false)}
             href={item.url}
             className={`${

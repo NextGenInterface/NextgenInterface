@@ -21,7 +21,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${lexend.variable} m-0 p-0 `}>
       <body
-        className={`${lexend.variable} text-xl m-0 p-0 bg:white bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text transition-all duration-200 antialiased`}>
+        className={`${lexend.variable} text-lg m-0 p-0 bg-background text-white transition-all duration-200 antialiased`}>
         <Provider>
           <Header />
           {children}

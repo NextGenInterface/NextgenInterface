@@ -6,7 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class",
+  // darkMode: "class",
 
   theme: {
     extend: {
@@ -50,13 +50,14 @@ const config: Config = {
         poppins: ["var(--font-poppins)"],
       },
       colors: {
+        background: "#121212",
         dark: {
           background: "#121212",
           foreground: "#202020",
           text: "#ccc",
         },
         light: {
-          background: "#f2f2f2",
+          background: "#ffffff",
           foreground: "#e9e9e9",
           text: "#222",
         },

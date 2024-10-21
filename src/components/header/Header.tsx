@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-// import ThemeToggle from "@/components/themeToggle/ThemeToggle";
 import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
@@ -70,7 +69,6 @@ const Header = () => {
               {item.title}
             </Link>
           ))}
-          {/* <ThemeToggle /> */}
         </ul>
       </div>
       <div className="md:hidden text-white text-3xl">

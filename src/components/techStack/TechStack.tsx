@@ -32,7 +32,10 @@ const TechStack = () => {
   FadeUpAnimation();
 
   return (
-    <div className="w-3/4 m-auto" data-aos="zoom-in-up" data-aos-duration="600">
+    <div
+      className="md:w-3/4 m-auto"
+      data-aos="zoom-in-up"
+      data-aos-duration="600">
       <h1 className="text-3xl font-extrabold text-center p-4 mb-6">
         Tech Stack
       </h1>

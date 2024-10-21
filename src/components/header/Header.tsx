@@ -82,7 +82,6 @@ const Header = () => {
         setMenuNav={setMenuNav}
         menu={menu}
         pathname={pathname}
-        resolvedTheme={resolvedTheme}
       />
     </nav>
   );

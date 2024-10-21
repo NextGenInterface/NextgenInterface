@@ -6,9 +6,9 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws", "postgres"],
       "image": [
-        "/images/Flights&packages/laptop.png",
-        "/images/Flights&packages/tablet.png",
-        "/images/Flights&packages/mobile.png"
+        "/images/Flights&packages/laptop.webp",
+        "/images/Flights&packages/tablet.webp",
+        "/images/Flights&packages/mobile.webp"
       ],
       "type": "web application"
     },
@@ -18,10 +18,10 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws", "postgres"],
       "image": [
-        "/images/Carmel/tablet.png",
-        "/images/Carmel/laptop.png",
-        "/images/Carmel/mobile.png",
-        "/images/Carmel/mobile-app.png"
+        "/images/Carmel/tablet.webp",
+        "/images/Carmel/laptop.webp",
+        "/images/Carmel/mobile.webp",
+        "/images/Carmel/mobile-app.webp"
       ],
       "type": "web application"
     },
@@ -31,9 +31,9 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["tailwind", "react", "aws", "postgres"],
       "image": [
-        "/images/InvoiceApp/tablet.png",
-        "/images/InvoiceApp/lightmobile.png",
-        "/images/InvoiceApp/darkmobile.png"
+        "/images/InvoiceApp/tablet.webp",
+        "/images/InvoiceApp/lightmobile.webp",
+        "/images/InvoiceApp/darkmobile.webp"
       ],
       "type": "web application"
     },
@@ -51,9 +51,9 @@
         "html"
       ],
       "image": [
-        "/images/Jimgos/mobile.png",
-        "/images/Jimgos/app-screens.png",
-        "/images/Jimgos/img3.png"
+        "/images/Jimgos/mobile.webp",
+        "/images/Jimgos/app-screens.webp",
+        "/images/Jimgos/img3.webp"
       ],
       "type": "web application"
     },
@@ -63,9 +63,9 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
       "stack": ["html", "javscript", "sass", "css"],
       "image": [
-        "/images/BlackWolfSecurity/desktop.png",
-        "/images/BlackWolfSecurity/mobile.png",
-        "/images/BlackWolfSecurity/full_screen.png"
+        "/images/BlackWolfSecurity/desktop.webp",
+        "/images/BlackWolfSecurity/mobile.webp",
+        "/images/BlackWolfSecurity/full_screen.webp"
       ],
       "link": "https://blackwolfsecurity.org/"
     },

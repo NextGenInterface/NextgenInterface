@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* HTML: <div class="loader"></div> */
+.Toastify__toast-theme--dark {
+  background-color: #202020;
+  font-size: 14px;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
 .loader {
   width: 80px;
   aspect-ratio: 2;

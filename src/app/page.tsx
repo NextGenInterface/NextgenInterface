@@ -47,16 +47,19 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <Section title="Projects" id="project">
-          <ListContainer toShow={3} direction="col" />
-          <div className="flex justify-center my-12">
+        <div className="w-full flex flex-col my-20">
+          <h1 className="text-4xl font-extrabold text-center p-4 my-12">
+            Projects
+          </h1>
+          <ListContainer toShow={3} direction="grid" />
+          <div className="w-fit m-auto my-8">
             <Button
               title="View more projects"
               link="/project"
               icon={<IoIosArrowRoundForward className="text-xl" />}
             />
           </div>
-        </Section>
+        </div>
       </PageLayout>
       <div className="bg-neutral-200 dark:bg-neutral-900 py-12">
         <TechStack />

@@ -12,7 +12,6 @@ const Design = () => {
           src={pic}
           alt={pic}
           className="object-center object-contain w-full h-full rounded-md shadow-mb overflow-hidden bg-white mb-4"
-          // unoptimized
         />
       ))}
     </div>

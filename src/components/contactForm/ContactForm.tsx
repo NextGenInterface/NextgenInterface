@@ -25,7 +25,6 @@ const ContactForm = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    // console.log(formValue);
 
     const formData = new FormData();
     formData.append("name", formValue.name);

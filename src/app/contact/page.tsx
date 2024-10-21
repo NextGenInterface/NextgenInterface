@@ -1,15 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import PageLayout from "../../components/utils/pageLayout/PageLayout";
-import { TiTick } from "react-icons/ti";
-import { IoClose } from "react-icons/io5";
 import ContactForm from "@/components/contactForm/ContactForm";
 
 const Page = () => {
-  const [success, setSuccess] = useState(false);
-  // const [error, setError] = useState("");
-  // const [loading, setLoading] = useState("");
-
   return (
     <PageLayout>
       <div className="w-full grid grid-cols-2 justify-center item-center my-32">

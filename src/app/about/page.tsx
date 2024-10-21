@@ -8,14 +8,14 @@ import AboutCard from "../../components/aboutCard/AboutCard";
 const page = () => {
   return (
     <PageLayout>
-      <div className="text-center mt-24 md:mb-20">
-        <p className="uppercase text-themeColor font-medium">about</p>
+      <div className="md:text-center mt-24 md:mb-20">
+        <p className="uppercase text-themeColor font-medium">about us</p>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           Pixel Perfect Agency
         </h1>
       </div>
       <div className="">
-        <p className="text-light text-center text-xl">
+        <p className="text-light md:text-center text-xl">
           Welcome to Pixel Perfect, where creativity meets technology. We are a
           full-service digital agency specializing in web development, graphic
           design, and UI/UX design. Our mission is to bring your ideas to life
@@ -32,7 +32,7 @@ const page = () => {
       </div>
 
       <div className="my-12 space-y-2">
-        <div className="text-center md:mt-32 md:mb-20">
+        <div className="md:text-center md:mt-32 md:mb-20">
           <p className="uppercase text-themeColor font-medium">services</p>
           <h1 className="self-start text-4xl md:text-5xl font-bold mb-6">
             What We Do
@@ -45,7 +45,7 @@ const page = () => {
         </div>
       </div>
       <div className="my-12 space-y-2">
-        <div className="text-center md:mt-32 md:mb-20">
+        <div className="md:text-center md:mt-32 md:mb-20">
           <p className="uppercase text-themeColor font-medium">
             Why Choose Us?
           </p>
@@ -53,7 +53,7 @@ const page = () => {
             Our Approach
           </h1>
         </div>
-        <div className="my-20 text-center">
+        <div className="my-20 md:text-center">
           <p>
             Our Approach We believe in a collaborative approach to every
             project. From the initial concept to the final product, we work

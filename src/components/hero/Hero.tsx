@@ -4,16 +4,16 @@ import Button from "../utils/button/Button";
 
 const Hero = () => {
   return (
-    <div className="w-full mt-6 px-4 md:px-0 h-[100vh] md:h-[100vh] flex flex-col justify-center items-center relative">
-      <div className="relative flex flex-col items-center justify-center text-center w-2/3">
-        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
+    <div className="w-full mt-6 px-6 h-[100vh] md:h-[100vh] flex flex-col justify-center items-center relative">
+      <div className="relative flex flex-col items-center justify-center text-center md:w-full lg:w-3/4">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
           Creativity
           <span className="bg-gradient-to-tl from-purple-800 via-purple-400 to-blue-700 inline-block text-transparent bg-clip-text">
             &
           </span>
           Functionality.
         </h1>
-        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
           Transforming Ideas into Digital Masterpieces
         </h1>
         <br />

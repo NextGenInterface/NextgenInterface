@@ -6,13 +6,13 @@ import TechStack from "../components/techStack/TechStack";
 import PageLayout from "../components/utils/pageLayout/PageLayout";
 import "./globals.css";
 import Image from "next/image";
-import background from "../../public/images/about.png";
+import background from "../../public/images/about.webp";
 import Panel from "@/components/panel/Panel";
 
 export default function Home() {
   return (
     <main className="">
-      <div className="absolute w-full h-[120vh] -top-10 bg-[url('/images/background.jpg')] bg-cover bg-no-repeat bg-center -z-20 mix-blend-color-dodge grayscale">
+      <div className="absolute w-full h-[120vh] -top-10 bg-[url('/images/background.webp')] bg-cover bg-no-repeat bg-center -z-20 mix-blend-color-dodge grayscale">
         <div className="absolute w-full h-full bg-gradient-to-b from-background via-transparent to-background mix-blend-darken"></div>
         <div className="absolute w-full h-full bg-background opacity-10 "></div>
       </div>

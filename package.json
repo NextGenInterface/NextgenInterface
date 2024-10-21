@@ -1,6 +1,7 @@
 {
   "name": "pixelperfect",
   "version": "0.1.0",
+  "homepage": "https://pixelperfectorg.github.io/PixelPerfect",
   "private": true,
   "scripts": {
     "dev": "next dev",

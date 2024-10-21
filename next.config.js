@@ -1,5 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   output: "export",
   basePath: process.env.NODE_ENV === "production" ? "/PixelPerfect" : "",
   assetPrefix: process.env.NODE_ENV === "production" ? "/PixelPerfect" : "",
@@ -7,4 +6,3 @@ const nextConfig = {
     unoptimized: true,
   },
 };
-export default nextConfig;

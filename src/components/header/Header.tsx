@@ -26,7 +26,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 80) {
+      if (window.scrollY > 60) {
         setHeader(true);
       } else {
         setHeader(false);
@@ -40,15 +40,15 @@ const Header = () => {
 
   return (
     <nav
-      className={`h-16 w-full flex fixed top-0 justify-between items-center px-4 md:px-10 z-50 ${
+      className={`h-16 w-full flex fixed top-0 justify-between items-center px-6 z-50 ${
         header && "bg-[#171717] opacity-95 transition ease-in-out"
       }`}>
-      <div className="flex gap-4 relative">
+      <div className="flex gap-1 relative">
         <Image
           src={logoSymbol}
           alt="logo"
           priority
-          className="object-contain object-center w-10 h-10 text-yellow-400"
+          className="object-contain object-center w-8 h-8"
         />
         <Image
           src={logoText}
@@ -74,7 +74,7 @@ const Header = () => {
       <div className="md:hidden text-white text-3xl">
         <MdOutlineMenu
           onClick={() => setMenuNav(true)}
-          className="md:hidden text-black text-3xl dark:text-white "
+          className="md:hidden text-white text-4xl"
         />
       </div>
       <SideMenu

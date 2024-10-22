@@ -16,7 +16,9 @@ const page = () => {
           <div>
             <ListContainer />
             <div className="my-12">
-              <p className="text-center">more projects in development!</p>
+              <p className="text-center capitalize font-bold text-yellow-500">
+                more projects in development!
+              </p>
             </div>
           </div>
         }

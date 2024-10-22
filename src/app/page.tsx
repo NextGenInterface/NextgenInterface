@@ -19,7 +19,7 @@ export default function Home() {
       <Hero />
       <PageLayout>
         <Panel />
-        <div className="flex flex-col md:flex-row items-center gap-4 my-36">
+        <div className="flex flex-col lg:flex-row items-center gap-4 my-36">
           <Image
             src={background}
             width={400}

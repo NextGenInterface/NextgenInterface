@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </div>
       </PageLayout>
-      <div className="bg-neutral-200 dark:bg-neutral-900 py-12">
+      <div className="bg-neutral-800 py-12">
         <TechStack />
       </div>
     </main>

@@ -46,7 +46,7 @@ export const ProjectHeader = ({ item: project }: { item: any }) => {
 
       <a
         href={project?.link}
-        className="uppercase text-indigo-500 hover:text-indigo-300 underline font-semibold text-xs">
+        className="uppercase text-indigo-500 hover:text-indigo-300 underline font-semibold text-xs cursor-pointer">
         {`go to website  >`}
       </a>
     </div>

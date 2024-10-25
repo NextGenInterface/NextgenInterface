@@ -84,18 +84,18 @@
       "description": "A dynamic Kanban board application designed to enhance productivity and provide clear oversight of ongoing tasks. Users can quickly add, assign, and arrange tasks within customizable columns, making it easy to monitor progress and manage priorities. With seamless drag-and-drop functionality, tasks move smoothly through stages, offering a transparent view of each project’s workflow. Ideal for individual use or team collaboration, this Kanban board is a practical tool for keeping projects organized and advancing toward completion.",
       "stack": ["React", "Redux", "Typescript", "css"],
       "image": [
-        "/images/kanban/laptop.webp",
-        "/images/kanban/twintablet.webp",
-        "/images/kanban/11.webp",
-        "/images/kanban/22.webp",
-        "/images/kanban/33.webp",
-        "/images/kanban/44.webp",
-        "/images/kanban/55.webp",
-        "/images/kanban/77.webp",
-        "/images/kanban/88.webp",
-        "/images/kanban/99.webp",
-        "/images/kanban/001.webp",
-        "/images/kanban/002.webp"
+        "/images/Kanban/laptop.webp",
+        "/images/Kanban/twintablet.webp",
+        "/images/Kanban/11.webp",
+        "/images/Kanban/22.webp",
+        "/images/Kanban/33.webp",
+        "/images/Kanban/44.webp",
+        "/images/Kanban/55.webp",
+        "/images/Kanban/77.webp",
+        "/images/Kanban/88.webp",
+        "/images/Kanban/99.webp",
+        "/images/Kanban/001.webp",
+        "/images/Kanban/002.webp"
       ],
 
       "type": "web application"

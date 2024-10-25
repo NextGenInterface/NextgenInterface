@@ -58,6 +58,36 @@
       "type": "web application"
     },
     {
+      "id": "15",
+      "name": "kanban",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",
+      "stack": [
+        "tailwind",
+        "nextjs",
+        "mongo",
+        "bootstrap",
+        "html",
+        "bootstrap",
+        "html"
+      ],
+      "image": [
+        "/images/kanban/laptop.jpg",
+        "/images/kanban/twintablet.png",
+        "/images/kanban/11.png",
+        "/images/kanban/22.png",
+        "/images/kanban/33.png",
+        "/images/kanban/44.png",
+        "/images/kanban/55.png",
+        "/images/kanban/77.png",
+        "/images/kanban/88.png",
+        "/images/kanban/99.png",
+        "/images/kanban/001.png",
+        "/images/kanban/002.png"
+      ],
+
+      "type": "web application"
+    },
+    {
       "id": "1",
       "name": "black wolf security",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, tellus tincidunt cum turpis nulla volutpat dapibus pulvinar, platea ridiculus enim viverra nascetur blandit gravida. Integer condimentum mauris luctus primis potenti senectus, egestas mus suspendisse porttitor vehicula.",

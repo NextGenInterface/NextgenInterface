@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { LiaPlusSolid } from "react-icons/lia";
-import { FadeUpAnimation } from "../../app/lib/aos/Animation";
+import { FadeUpAnimation } from "../../lib/aos/Animation";
 
 interface AboutCardProps {
   id: string;

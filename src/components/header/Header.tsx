@@ -50,7 +50,7 @@ const Header = () => {
             src={logoSymbol}
             alt="logo"
             priority
-            className="object-contain object-center w-8 h-8"
+            className="object-contain object-center w-8"
           />
           <Image
             src={logoText}

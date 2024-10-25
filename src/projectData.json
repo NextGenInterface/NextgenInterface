@@ -79,6 +79,28 @@
       "type": "mobile application"
     },
     {
+      "id": "15",
+      "name": "kanban",
+      "description": "A dynamic Kanban board application designed to enhance productivity and provide clear oversight of ongoing tasks. Users can quickly add, assign, and arrange tasks within customizable columns, making it easy to monitor progress and manage priorities. With seamless drag-and-drop functionality, tasks move smoothly through stages, offering a transparent view of each project’s workflow. Ideal for individual use or team collaboration, this Kanban board is a practical tool for keeping projects organized and advancing toward completion.",
+      "stack": ["React", "Redux", "Typescript", "css"],
+      "image": [
+        "/images/kanban/laptop.webp",
+        "/images/kanban/twintablet.webp",
+        "/images/kanban/11.webp",
+        "/images/kanban/22.webp",
+        "/images/kanban/33.webp",
+        "/images/kanban/44.webp",
+        "/images/kanban/55.webp",
+        "/images/kanban/77.webp",
+        "/images/kanban/88.webp",
+        "/images/kanban/99.webp",
+        "/images/kanban/001.webp",
+        "/images/kanban/002.webp"
+      ],
+
+      "type": "web application"
+    },
+    {
       "id": "1",
       "name": "black wolf security",
       "description": "An engaging website created to showcase Blackwolf Security, providing comprehensive information about the company and its services. The site features a user-friendly layout that highlights the various security solutions offered, including residential, commercial, and specialized services. Visitors can easily navigate through sections detailing the company's services, and expertise, ensuring a clear understanding of the security measures available. The design emphasizes professionalism and trust, aiming to instill confidence in potential clients seeking reliable security services. This project reflects a commitment to enhancing the online presence of Blackwolf Security and effectively communicating its offerings.",
@@ -154,18 +176,6 @@
       "description": "An intuitive invoicing management system designed to streamline the process of creating, managing, and tracking invoices. This platform enables users to effortlessly create, edit, and delete invoices, ensuring accurate billing and record-keeping. By prioritizing efficiency and usability, this project enhances the overall invoicing process, making it easier for businesses to manage their financial transactions.",
       "stack": ["React", "Redux", "Typescript", "css"],
       "image": ["/images/Inventory/img1.webp", "/images/Inventory/img2.webp"],
-      "type": "web application"
-    },
-
-    {
-      "id": "6",
-      "name": "recipe finder",
-      "description": "A user-centric recipe finder that enhances the culinary experience by allowing users to effortlessly search for recipes tailored to their preferences. This app empowers users to explore a wide array of recipes based on the type of meal the user wants. The intuitive interface enables users to filter recipes easily, making it simple to discover new dishes that suit any occasion.",
-      "stack": ["tailwind", "react", "aws"],
-      "image": [
-        "/images/RecipeFinder/img1.webp",
-        "/images/RecipeFinder/img2.webp"
-      ],
       "type": "web application"
     },
     {

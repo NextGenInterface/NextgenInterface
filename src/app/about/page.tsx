@@ -5,6 +5,11 @@ import cardData from "./data.json";
 import Banner from "../../components/banner/Banner";
 import AboutCard from "../../components/aboutCard/AboutCard";
 
+interface WhyChooseProps {
+  header: string;
+  description: string;
+}
+
 const page = () => {
   return (
     <PageLayout>
@@ -17,9 +22,10 @@ const page = () => {
       <div className="">
         <p className="text-light md:text-center text-xl">
           Welcome to Pixel Perfect, where creativity meets technology. We are a
-          full-service digital agency specializing in web development, graphic
-          design, and UI/UX design. Our mission is to bring your ideas to life
-          through innovative design and cutting-edge technology.
+          full-service digital agency specializing in web and mobile
+          development, graphics design, and UI/UX design. Our mission is to
+          bring your ideas to life through innovative design and cutting-edge
+          technology.
           <br />
           <br />
           Who We Are: At Pixel Perfect, we are a team of passionate designers,
@@ -64,7 +70,7 @@ const page = () => {
         </div>
         <div className="my-20">
           <div className="my-12 space-y-2 lg:grid lg:grid-cols-4">
-            {whyChoose?.whyChoose.map((item: any, i: number) => (
+            {whyChoose?.whyChoose.map((item: WhyChooseProps, i: number) => (
               <article key={i} className="p-4">
                 <h1 className="font-bold">{item.header}</h1>
                 <p>{item.description}</p>

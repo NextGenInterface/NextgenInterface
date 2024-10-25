@@ -1,5 +1,5 @@
 // "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import projectData from "../../../projectData.json";
 import Image from "next/image";
 import PageLayout from "@/components/utils/pageLayout/PageLayout";
@@ -20,10 +20,10 @@ const page = ({ params }: { params: { name: string } }) => {
 
   return (
     <PageLayout>
-      <ProjectHeader item={project} />
+      <ProjectHeader project={project} />
       <div className="flex flex-col items-center my-12">
-        {project?.image?.map((pics: any, i: number) => (
-          <>
+        {project?.image?.map((pics, i: number) => (
+          <div key={i}>
             <Image
               src={pics}
               alt="project"
@@ -31,7 +31,7 @@ const page = ({ params }: { params: { name: string } }) => {
               height={1000}
               className="object-cover object-center w-full h-[50vh] lg:h-[100vh] "
             />
-          </>
+          </div>
         ))}
         <p className="text-md my-12 font-light">{project?.description}</p>
       </div>

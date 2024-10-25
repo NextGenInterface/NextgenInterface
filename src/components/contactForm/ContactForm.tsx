@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Bounce, ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../../app/globals.css";
 
@@ -98,9 +98,8 @@ const ContactForm = () => {
       />
       <button
         type="submit"
-        className="w-fit text-sm bg-themeColor text-white font-medium active:scale-95 p-3 rounded-sm cursor-pointer hover:bg-indigo-600">{`${
-        loading ? "sending..." : "submit"
-      }`}</button>
+        className="w-fit text-sm bg-themeColor text-white font-medium active:scale-95 p-3 rounded-sm cursor-pointer hover:bg-indigo-600"
+      >{`${loading ? "sending..." : "submit"}`}</button>
     </form>
   );
 };

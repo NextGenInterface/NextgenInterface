@@ -17,15 +17,17 @@ const Tab = ({
           onClick={() => setTab(1)}
           className={`${tab === 1 && "text-indigo-500 font-black text-2xl"} ${
             tab === 2 && "hover:text-neutral-400"
-          }  cursor-pointer transition active:scale-95`}>
-          Web Dev
+          }  cursor-pointer transition active:scale-95`}
+        >
+          Web & Mobile Dev
         </button>
         <span className="text-2xl">/</span>
         <button
           onClick={() => setTab(2)}
           className={`${tab === 2 && "text-indigo-500 font-black text-2xl"} ${
             tab === 1 && "hover:text-neutral-400"
-          } cursor-pointer transition active:scale-95`}>
+          } cursor-pointer transition active:scale-95`}
+        >
           Design
         </button>
       </div>

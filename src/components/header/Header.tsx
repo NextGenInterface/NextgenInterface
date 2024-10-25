@@ -42,30 +42,34 @@ const Header = () => {
     <nav
       className={`h-16 w-full flex fixed top-0 justify-between items-center px-6 z-50 ${
         header && "bg-[#171717] opacity-95 transition ease-in-out"
-      }`}>
-      <div className="flex gap-1 relative">
-        <Image
-          src={logoSymbol}
-          alt="logo"
-          priority
-          className="object-contain object-center w-8"
-        />
-        <Image
-          src={logoText}
-          alt="logo"
-          priority
-          className="object-contain object-center w-32"
-        />
-      </div>
+      }`}
+    >
+      <Link href={"/"}>
+        <div className="flex gap-1 relative">
+          <Image
+            src={logoSymbol}
+            alt="logo"
+            priority
+            className="object-contain object-center w-8"
+          />
+          <Image
+            src={logoText}
+            alt="logo"
+            priority
+            className="object-contain object-center w-32"
+          />
+        </div>
+      </Link>
       <div className="h-full flex items-center justify-center gap-2">
         <ul className=" hidden md:flex gap-4">
-          {menu.map((item: any, idx: number) => (
+          {menu.map((item, idx: number) => (
             <Link
               key={idx}
               href={item.url}
               className={`${
                 pathname === item.url && "text-indigo-400"
-              } active:scale-95 capitalize text-sm font-semibold hover:bg-neutral-800 hover:bg-opacity-40 hover:text-indigo-400 p-2 rounded-md`}>
+              } active:scale-95 capitalize text-sm font-semibold hover:bg-neutral-800 hover:bg-opacity-40 hover:text-indigo-400 p-2 rounded-md`}
+            >
               {item.title}
             </Link>
           ))}

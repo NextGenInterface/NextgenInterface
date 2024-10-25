@@ -2,14 +2,14 @@
   "serviceCard": [
     {
       "id": "1",
-      "area": "web development",
+      "area": "web and mobile development",
       "title": "Innovative Web, Digital Experiences Solutions for Modern Businesses",
-      "description": "Our web development services are tailored to bring your vision to life with precision and creativity. We specialize in building dynamic, responsive websites that not only look stunning but also perform flawlessly across all devices. Whether you're a small business looking for an online presence or a larger enterprise in need of a complex web application, we leverage the latest technologies to create websites that are fast, secure, and scalable. Our expertise extends across various platforms and frameworks, allowing us to deliver custom solutions that meet your unique needs. From front-end development that captivates your audience to robust back-end systems that ensure seamless functionality, we are committed to providing web development services that drive results and help your business grow.",
+      "description": "Our web and mobile development services are tailored to bring your vision to life with precision and creativity. We specialize in building dynamic, responsive websites and mobile applications that not only look stunning but also perform flawlessly across all devices. Whether you're a small business seeking an online presence or a larger enterprise requiring a complex web or mobile application, we leverage the latest technologies to create solutions that are fast, secure, and scalable. Our expertise spans various platforms and frameworks, allowing us to deliver custom solutions that meet your unique needs. From front-end development that captivates your audience to robust back-end systems that ensure seamless functionality, we are committed to providing web and mobile development services that drive results and help your business grow.",
       "image": "/images/webDev.webp"
     },
     {
       "id": "2",
-      "area": "Graphic Design",
+      "area": "Graphics Design",
       "title": "Stunning, Engaging Visuals that Capture Attention",
       "description": "Our graphics design services are all about creating visual experiences that leave a lasting impression. We believe that great design is not just about aesthetics but also about communicating your brand's message effectively. Whether you need eye-catching logos, striking marketing materials, or compelling social media graphics, we combine creativity with strategy to design visuals that resonate with your target audience. Our approach is collaborative, ensuring that the final product reflects your brand's personality and goals. With a keen eye for detail and a deep understanding of design principles, we create graphics that are not only beautiful but also functional, helping your brand stand out in a crowded marketplace.",
       "image": "/images/graphics.webp"
@@ -36,7 +36,7 @@
     },
     {
       "header": "Expert Team",
-      "description": " Our team is made up of skilled professionals with years"
+      "description": " Our team is made up of skilled professionals with years of experience designing and developing applications"
     },
     {
       "header": "Client-Centered",
@@ -44,7 +44,7 @@
     },
     {
       "header": "Innovative Thinking",
-      "description": " We stay on the cutting edge of technology and design trends to ensure that your digital presence is always ahead of the curve."
+      "description": " We stay on cutting edge technology and design trends to ensure that your digital presence is always ahead of the curve."
     }
   ]
 }

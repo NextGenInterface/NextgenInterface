@@ -19,7 +19,8 @@ const ListContainer = async ({
           : direction === "grid"
           ? "grid grid-cols-1 sm:grid-cols-3"
           : "block"
-      } gap-6 items-start h-full relative`}>
+      } gap-6 items-start h-full relative`}
+    >
       {projectData?.projects?.slice(0, toShow).map((item: any) => (
         <ProjectCard key={item.name} {...item} />
       ))}

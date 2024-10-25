@@ -12,15 +12,19 @@ const Menu = ({
   pathname,
 }: {
   menuNav: boolean;
-  setMenuNav: any;
-  menu: {}[];
+  setMenuNav: React.Dispatch<React.SetStateAction<boolean>>;
+  menu: {
+    url: string;
+    title: string;
+  }[];
   pathname: string;
 }) => {
   return (
     <div
       className={`${
         !menuNav ? "hidden" : "visible"
-      } w-full h-full fixed top-0 left-0 z-40 bg-background `}>
+      } w-full h-full fixed top-0 left-0 z-40 bg-background `}
+    >
       <div className="h-16 w-full flex fixed top-0 justify-between items-center px-6 z-50">
         <div className="flex justify-between items-center">
           <div className="flex gap-1 relative">
@@ -46,14 +50,15 @@ const Menu = ({
 
       <div className="p-6 mt-12">
         <div className="flex flex-col py-6 h-full">
-          {menu.map((item: any, idx: number) => (
+          {menu.map((item, idx: number) => (
             <Link
               key={idx}
               onClick={() => setMenuNav(false)}
               href={item.url}
               className={`${
                 pathname === item.url && "text-indigo-400"
-              } capitalize text-md font-semibold hover:bg-neutral-200 dark:hover:bg-slate-800 hover:bg-opacity-20 hover:text-indigo-400 py-4`}>
+              } capitalize text-md font-semibold hover:bg-neutral-200 dark:hover:bg-slate-800 hover:bg-opacity-20 hover:text-indigo-400 py-4`}
+            >
               {item.title}
             </Link>
           ))}

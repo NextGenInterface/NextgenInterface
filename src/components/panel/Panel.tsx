@@ -26,10 +26,11 @@ const panelData = [
 const Panel = () => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4  gap-4">
-      {panelData.map((item: any, idx: number) => (
+      {panelData.map((item, idx) => (
         <article
           key={idx}
-          className="space-y-2 rounded-md border border-neutral-800 p-4">
+          className="space-y-2 rounded-md border border-neutral-800 p-4"
+        >
           <h2 className="text-lg font-bold">{item.title}</h2>
           <p className="text-sm">{item.description}</p>
         </article>

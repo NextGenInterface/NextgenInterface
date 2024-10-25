@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
-import logoSymbol from "../../../public/SVG/logo-symbol.svg";
+import logoSymbol from "../../../public/SVG/logo_1.svg";
 import logoText from "../../../public/SVG/logo-text.svg";
 import { usePathname } from "next/navigation";
 import SideMenu from "./sideMenu/SideMenu";

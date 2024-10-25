@@ -71,18 +71,18 @@
         "html"
       ],
       "image": [
-        "/images/kanban/laptop.jpg",
-        "/images/kanban/twintablet.png",
-        "/images/kanban/11.png",
-        "/images/kanban/22.png",
-        "/images/kanban/33.png",
-        "/images/kanban/44.png",
-        "/images/kanban/55.png",
-        "/images/kanban/77.png",
-        "/images/kanban/88.png",
-        "/images/kanban/99.png",
-        "/images/kanban/001.png",
-        "/images/kanban/002.png"
+        "/images/kanban/laptop.webp",
+        "/images/kanban/twintablet.webp",
+        "/images/kanban/11.webp",
+        "/images/kanban/22.webp",
+        "/images/kanban/33.webp",
+        "/images/kanban/44.webp",
+        "/images/kanban/55.webp",
+        "/images/kanban/77.webp",
+        "/images/kanban/88.webp",
+        "/images/kanban/99.webp",
+        "/images/kanban/001.webp",
+        "/images/kanban/002.webp"
       ],
 
       "type": "web application"

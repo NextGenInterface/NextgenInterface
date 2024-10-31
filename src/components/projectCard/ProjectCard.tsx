@@ -6,8 +6,6 @@ import Link from "next/link";
 
 const ProjectCard = ({
   name,
-  description,
-  stack,
   image,
   type,
 }: {

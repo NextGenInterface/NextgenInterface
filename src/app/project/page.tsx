@@ -1,9 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import ListContainer from "../../components/listContainer/ListContainer";
-import Tab from "../../components/design/DesignList";
 import PageLayout from "../../components/utils/pageLayout/PageLayout";
-import Design from "../../components/design/Design";
 
 const page = () => {
   return (

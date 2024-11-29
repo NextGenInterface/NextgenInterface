@@ -12,8 +12,11 @@ const Menu = ({
   pathname,
 }: {
   menuNav: boolean;
-  setMenuNav: any;
-  menu: {}[];
+  setMenuNav: React.Dispatch<React.SetStateAction<boolean>>;
+  menu: {
+    url: string;
+    title: string;
+  }[];
   pathname: string;
 }) => {
   return (
@@ -45,7 +48,7 @@ const Menu = ({
 
       <div className="p-6 mt-12">
         <div className="flex flex-col py-6 h-full">
-          {menu.map((item: any, idx: number) => (
+          {menu.map((item, idx: number) => (
             <Link
               key={idx}
               onClick={() => setMenuNav(false)}

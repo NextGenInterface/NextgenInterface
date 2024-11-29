@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Bounce, ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../../app/globals.css";
 
@@ -31,7 +31,7 @@ const ContactForm = () => {
     formData.append("email", formValue.email);
     formData.append("message", formValue.message);
 
-    formData.append("access_key", "b426fda8-3a99-474c-b181-aafefb0d463a");
+    formData.append("access_key", process.env.FORM_ACCESS_KEY || "");
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData,
@@ -98,9 +98,8 @@ const ContactForm = () => {
       />
       <button
         type="submit"
-        className="w-fit text-sm bg-themeColor text-white font-medium active:scale-95 p-3 rounded-sm cursor-pointer hover:bg-indigo-600">{`${
-        loading ? "sending..." : "submit"
-      }`}</button>
+        className="w-fit text-sm bg-themeColor text-white font-medium active:scale-95 p-3 rounded-sm cursor-pointer hover:bg-indigo-600"
+      >{`${loading ? "sending..." : "submit"}`}</button>
     </form>
   );
 };

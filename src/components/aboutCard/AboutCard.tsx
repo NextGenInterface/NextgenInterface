@@ -4,11 +4,19 @@ import Image from "next/image";
 import { LiaPlusSolid } from "react-icons/lia";
 import { FadeUpAnimation } from "../../lib/aos/Animation";
 
+interface AboutCardProps {
+  id: string;
+  area: string;
+  title: string;
+  description: string;
+  image: string;
+}
+
 const AboutCard = ({
   item,
   direction = "ltr",
 }: {
-  item: any;
+  item: AboutCardProps;
   direction?: "rtl" | "ltr";
 }) => {
   FadeUpAnimation();
@@ -16,7 +24,8 @@ const AboutCard = ({
   return (
     <div
       className={`md:flex gap-12 items-center w-full relative pb-20  md:even:flex-row-reverse`}
-      dir={direction}>
+      dir={direction}
+    >
       <div className="relative w-full h-80 md:h-[28rem] flex-auto">
         <Image
           src={image}

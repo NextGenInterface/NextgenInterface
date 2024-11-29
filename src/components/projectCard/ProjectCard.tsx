@@ -6,8 +6,6 @@ import Link from "next/link";
 
 const ProjectCard = ({
   name,
-  description,
-  stack,
   image,
   type,
 }: {
@@ -15,7 +13,7 @@ const ProjectCard = ({
   name: string;
   description: string;
   stack: string[];
-  image?: any | StaticImageData[];
+  image?: StaticImageData[];
   type?: string;
 }) => {
   FadeUpAnimation();
@@ -27,10 +25,11 @@ const ProjectCard = ({
       href={`/project/${renameUrl}`}
       data-aos="zoom-in-up"
       data-aos-duration="400"
-      className="group w-full relative shadow-sm overflow-hidden rounded-xl cursor-pointer bg-neutral-900 h-72">
+      className="group w-full relative shadow-sm overflow-hidden rounded-xl cursor-pointer bg-neutral-900 h-72"
+    >
       <div className="w-full h-full absolute top-0 left-0 z-10 hover:bg-black hover:opacity-40 transition ease-in-out  "></div>
       <div className="w-full h-56 relative">
-        {image?.slice(0, 1).map((pics: any, i: number) => (
+        {image?.slice(0, 1).map((pics, i: number) => (
           <Image
             key={i}
             src={pics}

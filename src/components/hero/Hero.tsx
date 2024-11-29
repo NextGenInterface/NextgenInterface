@@ -18,10 +18,10 @@ const Hero = () => {
         </h1>
         <br />
         <p className="text-center w-full  text-md md:text-xl">
-          Web Developer & Designer dedicated to bringing your ideas to life.
-          With a keen eye for design and a knack for coding, creating stunning
-          websites and graphics that not only look good but also perform
-          exceptionally.
+          Web & Mobile Developer and Designer dedicated to bringing your ideas
+          to life. With a keen eye for design and a knack for coding, creating
+          stunning websites and graphics that not only look good but also
+          perform exceptionally.
         </p>
         <div className="mt-6 z-10">
           <Button

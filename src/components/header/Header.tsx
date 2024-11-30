@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
-import logoSymbol from "../../../public/SVG/logo_1.svg";
-import logoText from "../../../public/SVG/logo-text.svg";
+import logoSymbol from "../../../public/SVG/logo.svg";
+import logoText from "../../../public/SVG/name.svg";
 import { usePathname } from "next/navigation";
 import SideMenu from "./sideMenu/SideMenu";
 import { useTheme } from "next-themes";
@@ -21,7 +21,9 @@ const Header = () => {
     { title: "home", url: "/" },
     { title: "about", url: "/about" },
     { title: "projects", url: "/project" },
+    { title: "design", url: "/design" },
     { title: "contact", url: "/contact" },
+
   ];
 
   useEffect(() => {
@@ -39,9 +41,7 @@ const Header = () => {
   }, []);
 
   return (
-    <nav
-      className={`h-16 w-full flex fixed top-0 justify-between items-center px-6 z-50 ${
-        header && "bg-[#171717] opacity-95 transition ease-in-out"
+    <nav className={`h-16 w-full flex fixed top-0 justify-between items-center px-6 z-50 ${header && "bg-[#171717] opacity-95 transition ease-in-out"
       }`}
     >
       <Link href={"/"}>
@@ -63,12 +63,12 @@ const Header = () => {
       <div className="h-full flex items-center justify-center gap-2">
         <ul className=" hidden md:flex gap-4">
           {menu.map((item, idx: number) => (
+
             <Link
-              key={idx}
+              key={item.title}
               href={item.url}
-              className={`${
-                pathname === item.url && "text-indigo-400"
-              } active:scale-95 capitalize text-sm font-semibold hover:bg-neutral-800 hover:bg-opacity-40 hover:text-indigo-400 p-2 rounded-md`}
+              className={`${pathname === item.url && "text-indigo-400"
+                } active:scale-95 capitalize text-sm font-semibold hover:bg-neutral-800 hover:bg-opacity-40 hover:text-indigo-400 p-2 rounded-md`}
             >
               {item.title}
             </Link>

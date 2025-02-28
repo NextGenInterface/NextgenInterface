@@ -79,7 +79,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="md:my-32">
+      <div className="my-20 md:my-32">
         <Banner />
       </div>
     </PageLayout>

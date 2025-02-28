@@ -9,7 +9,9 @@ const page = () => {
       <h1 className="text-center self-start mt-24 text-4xl md:text-3xl font-bold mb-6">
         Our Projects
       </h1>
-      <ListContainer />
+      <div className="mb-20">
+        <ListContainer />
+      </div>
     </PageLayout>
   );
 };

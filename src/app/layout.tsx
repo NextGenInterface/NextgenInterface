@@ -7,7 +7,8 @@ import Footer from "../components/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Next Gen Interface",
-  description: "Professional web and mobile development, UI/UX design, and graphic design services. Transforming ideas into stunning digital experiences.",
+  description:
+    "Professional web and mobile development, UI/UX design, and graphic design services. Transforming ideas into stunning digital experiences.",
 };
 
 export default function RootLayout({
@@ -19,9 +20,11 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${lexend.variable} m-0 p-0 `}>
+      className={`${lexend.variable} m-0 p-0 `}
+    >
       <body
-        className={`${lexend.variable} text-lg m-0 p-0 bg-background text-white transition-all duration-200 antialiased`}>
+        className={`${lexend.variable} text-lg m-0 p-0 bg-background text-white transition-all duration-200 antialiased`}
+      >
         <Provider>
           <Header />
           {children}
